@@ -77,7 +77,7 @@
                   ?>
                   <section id="post-<?php the_ID(); ?>" <?php post_class( 'article-list cf m-all t-1of3 d-1of3' ); ?> role="article">
                                 <header class="article-header">
-                                <a style="color :<?php the_field("shadow_hover"); ?>;" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('bones-thumb-400'); ?></a>
+                                <a class="image" style="color :<?php the_field("shadow_hover"); ?>;" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('bones-thumb-400'); ?></a>
 
                                   <h2 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 
