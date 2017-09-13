@@ -1338,50 +1338,6 @@ article a.image,
   .article-list a.image img:hover,
   .article-list a.image img:active {
     box-shadow: 0 10px 32px 0; }
-article .category,
-.archive .category,
-.article-list .category {
-  font-weight: bold;
-  font-size: 1.125em;
-  margin: 0.5em 0; }
-  article .category a:first-letter,
-  .archive .category a:first-letter,
-  .article-list .category a:first-letter {
-    text-transform: uppercase; }
-  article .category a:hover, article .category a:focus,
-  .archive .category a:hover,
-  .archive .category a:focus,
-  .article-list .category a:hover,
-  .article-list .category a:focus {
-    text-decoration: underline !important; }
-article.category-compta .category,
-article.category-compta .category a,
-.archive.category-compta .category,
-.archive.category-compta .category a,
-.article-list.category-compta .category,
-.article-list.category-compta .category a {
-  color: #FF6B0A; }
-article.category-design .category,
-article.category-design .category a,
-.archive.category-design .category,
-.archive.category-design .category a,
-.article-list.category-design .category,
-.article-list.category-design .category a {
-  color: #FF2D69; }
-article.category-entrepreneur .category,
-article.category-entrepreneur .category a,
-.archive.category-entrepreneur .category,
-.archive.category-entrepreneur .category a,
-.article-list.category-entrepreneur .category,
-.article-list.category-entrepreneur .category a {
-  color: #CC5DE8; }
-article.category-inside-fred .category,
-article.category-inside-fred .category a,
-.archive.category-inside-fred .category,
-.archive.category-inside-fred .category a,
-.article-list.category-inside-fred .category,
-.article-list.category-inside-fred .category a {
-  color: #0482FF; }
 
 .transition, #container, body.single .post header img,
 .article-top a img,
@@ -1473,7 +1429,7 @@ body.single .post header h2,
     font-size: 0.875em;
     color: #999999;
     font-weight: 300;
-    line-height: 1.563em; }
+    line-height: 1.786em; }
 
 .article-list.d-1of3 {
   margin: 2em 0em 0em 0em; }
@@ -1538,13 +1494,33 @@ body.single .post header h2,
 /* author page */
 /* user nicename (i.e. body.author-samueladams) */
 /* paged author archives (i.e. body.author-paged-4) for page 4 */
-.category {
+#content .category {
   font-family: "mercury", Cambria, Times New Roman, Times, serif;
   font-weight: bold;
   font-size: 1.125em;
   margin: 0.5em 0; }
+  #content .category a {
+    text-transform: capitalize; }
+    #content .category a:hover, #content .category a:focus {
+      text-decoration: underline !important; }
 
 /* category page */
+.category-compta .category,
+.category-compta .category a {
+  color: #FF6B0A; }
+
+.category-design .category,
+.category-design .category a {
+  color: #FF2D69; }
+
+.category-entrepreneur .category,
+.category-entrepreneur .category a {
+  color: #CC5DE8; }
+
+.category-inside-fred .category,
+.category-inside-fred .category a {
+  color: #0482FF; }
+
 /* individual category page (i.e. body.category-6) */
 /* replace the number to the corresponding page number */
 /* tag page */
@@ -1754,14 +1730,15 @@ header {
     text-align: left; }
     header #menu-header-left .all-posts,
     header #menu-blog-header-left .all-posts {
-      padding: 1em 0 0 0; }
+      padding: 0; }
       header #menu-header-left .all-posts a,
       header #menu-blog-header-left .all-posts a {
         font-weight: inherit;
         background-image: url(../images/arrow-left-back.svg);
         background-repeat: no-repeat;
         background-position: left 1.5em;
-        padding: 1.25em 1em 1.25em 1.5em; }
+        padding: 1.6em 1em 1.25em 2.5em;
+        background-size: 32px; }
   header #menu-header-right,
   header #menu-blog-header-right {
     text-align: right;
@@ -2295,6 +2272,16 @@ you can add resource intensive styles.
   come into play. Have fun!
   
   ******************************************************************/
+  #content {
+    margin-top: 57px; }
+
+  header.header {
+    height: 89px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff; }
+
   .blog article.d-1of3 header h2 {
     height: 90px; }
 

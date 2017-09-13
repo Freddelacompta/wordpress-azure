@@ -21,11 +21,6 @@
 
 							</header>
 							<footer class="article-footer cf">
-							<div class="exerpt">
-	             				<?php //printf( '<p class="tag">&nbsp;' . ' %1$s</p>' , get_the_tag_list('', ', ') ); ?>
-							</div>
-
-
 							</footer>
 						</article>
 

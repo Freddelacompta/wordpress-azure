@@ -12,6 +12,18 @@ come into play. Have fun!
 
 ******************************************************************/
 
+#content{
+	margin-top: 57px;
+}
+
+header.header{
+	height: 89px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: $white;
+}
+
 .blog {
 	article{
 
