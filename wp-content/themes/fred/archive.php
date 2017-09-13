@@ -22,13 +22,6 @@
 							</header>
 							<footer class="article-footer cf">
 							<div class="exerpt">
-								<?php if(empty(the_excerpt())){
-									echo "&nbsp;";
-								}else{
-
-									the_excerpt();
-								}
-								?>
 	             				<?php //printf( '<p class="tag">&nbsp;' . ' %1$s</p>' , get_the_tag_list('', ', ') ); ?>
 							</div>
 
