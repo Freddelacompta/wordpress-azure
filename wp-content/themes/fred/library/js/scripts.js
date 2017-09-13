@@ -116,6 +116,7 @@ setInterval(function(){
     var $main = $("#container");
     var $category = $(".category >a");
     var $linkMenu = $("nav a");
+    var $ctaSendgrid = $("#sendgrid_mc_email_submit");
 
 
   $img.hover(
@@ -146,6 +147,12 @@ setInterval(function(){
       $main.removeClass( "hover" )
     });
 
+    $ctaSendgrid.hover(
+      function() {
+        $main.addClass( "hover" );
+      },function() {
+        $main.removeClass( "hover" )
+      });
 }, 200);
 
 
