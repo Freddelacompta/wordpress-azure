@@ -1,0 +1,543 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"list-s",
+				"list-style-type"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"ora",
+				"orange-fred"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"gra",
+				"gray-light"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"sh",
+				"shadowHover"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"t",
+				"text-decoration"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"hom",
+				"home_blog_slash"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"blo",
+				"blog_string_slash"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"bl",
+				"blue-cta"
+			],
+			[
+				"i",
+				"important"
+			],
+			[
+				"l",
+				"left"
+			],
+			[
+				"la",
+				"last-child"
+			],
+			[
+				"MAR",
+				"margin-bottom"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"se",
+				"selector"
+			],
+			[
+				"backgro",
+				"background-repeat"
+			],
+			[
+				"BACK",
+				"background-image"
+			],
+			[
+				"gray",
+				"gray-dark"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"btn",
+				"button\tTag"
+			],
+			[
+				"font-weiht",
+				"font-weight"
+			],
+			[
+				"Circular",
+				"circular-Std-Bold"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"last_filter": "insta",
+		"selected_items":
+		[
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 485.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/wp-content/themes/fred",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/js",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/js/libs",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss/breakpoints",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss/modules",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss/partials",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/post-formats"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/header.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/footer.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss/partials/_typography.scss",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/index.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss/partials/_grid.scss",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/post-formats/format.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss/breakpoints/_base.scss",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss/partials/_normalize.scss",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/archive.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/js/scripts.js",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss/partials/_variables.scss",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/single.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss/breakpoints/_768up.scss",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss/breakpoints/_481up.scss",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss/modules/_buttons.scss",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss/breakpoints/_1030up.scss",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/scss/breakpoints/_1240up.scss",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/404.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/taxonomy-custom_cat.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/library/bones.php",
+		"/Applications/MAMP/htdocs/wp-content/themes/fred/functions.php",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/single.php",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/post-formats/format.php",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/index.php",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/library/scss/editor-style.scss",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/library/scss/breakpoints/_base.scss",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/library/scss/breakpoints/_1240up.scss",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/library/scss/breakpoints/_1030up.scss",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/library/scss/partials/_variables.scss",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/library/scss/modules/_forms.scss",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/library/js/scripts.js",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/functions.php",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/library/scss/partials/_mixins.scss",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/style.css",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/library/scss/modules/_buttons.scss",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/library/scss/partials/_normalize.scss",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/library/scss/partials/_typography.scss",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/library/scss/breakpoints/_768up.scss",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/sidebar.php",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/footer.php",
+		"/Applications/MAMP/htdocs/blog/wp-content/themes/fred-blog/header.php",
+		"/Users/julienmarcialis/Downloads/circular-std-book (1)/style.css",
+		"/Applications/MAMP/htdocs/index.php",
+		"/Users/julienmarcialis/Library/Application Support/Sublime Text 3/Packages/LiveReload/LiveReload.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"HEADER",
+			"article",
+			" =\"",
+			">\n",
+			"=\"\";\n",
+			"sans-s",
+			"mercu",
+			"lato",
+			"circula",
+			"serif",
+			"$lato",
+			"lato",
+			"footer",
+			"article-t",
+			"category",
+			"url",
+			"Circular",
+			"CircularStd",
+			"entr",
+			"entry",
+			"entry-content",
+			"entry-cont",
+			"post",
+			"</p>\n</p>",
+			"wp-captu",
+			"sendg",
+			"seng",
+			"sengrid",
+			"\t\ta.image{\n\t\t\tdisplay: block;\n\t\t\tcolor: white;\n\n\n\t\t\timg{\n\t\t\t\t&:hover,\n\t\t\t\t&:active{\n\t\t\t\t\tbox-shadow: 0 10px 32px 0;\n\t\t\t\t\t//box-shadow: 0px 0px 40px 0px;\n\n\t\t\t\t}\n\t\t\t}\n\t\t}",
+			".image",
+			"container",
+			"blog",
+			"main",
+			"jquery",
+			"{\n",
+			"image",
+			"shadow",
+			"shadowHover",
+			"';\n",
+			"catego",
+			"index",
+			"article",
+			"transparent",
+			"faceboo",
+			"footer",
+			"b",
+			"bock",
+			"height",
+			"archive",
+			".footer",
+			"footer",
+			"left",
+			"none",
+			"footer",
+			"checkblog\n",
+			"v",
+			"checkblog",
+			"img",
+			"margin",
+			"505",
+			"catego",
+			".archive",
+			"archive-entr",
+			"div",
+			";\n",
+			"archive titlte",
+			"catego",
+			".archive",
+			".archive,",
+			"page",
+			"article-list",
+			"2.25",
+			"entry-tr",
+			"H2",
+			"height",
+			"top",
+			"top-ar",
+			"0",
+			"img",
+			";\n",
+			"img",
+			"header",
+			"imag",
+			"btn",
+			"header-r",
+			"header",
+			";\n",
+			"hover",
+			"important",
+			",\n",
+			"$blue-cta",
+			">\n",
+			"(\n",
+			"main-nav",
+			"logo",
+			";\n",
+			"menu",
+			"nth",
+			"alt",
+			"menu",
+			"header",
+			"menu",
+			"relat",
+			"blog",
+			"home",
+			";\n",
+			"link-c",
+			"curso",
+			"menu",
+			"url",
+			"blockq",
+			"bloquote",
+			"wrap",
+			"y-c",
+			"y-",
+			".wrap",
+			"wrap",
+			"bonestheme",
+			"max-width",
+			"h2",
+			"pink",
+			"hover",
+			"article",
+			"hover",
+			"menu",
+			"footer",
+			"ajax_posts",
+			" \n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"</p>\n<p>",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.380967352642,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "fred.sublime-project",
+	"replace":
+	{
+		"height": 86.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 210.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
