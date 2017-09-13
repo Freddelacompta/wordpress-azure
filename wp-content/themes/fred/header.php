@@ -92,7 +92,7 @@
 
 						<?php } ?>
 
-						<p class="d-1of3 t-1of3 m-1of2 logo" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>/blog" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo-fred-de-la-compta-black.svg" alt="Fred de la compta, le blog"></a></span></p>
+						<p class="d-1of3 t-1of3 m-1of2 logo" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo-fred-de-la-compta-black.svg" alt="Fred de la compta, le blog"></a></span></p>
 
 						<?php wp_nav_menu(array(
 					         'container' => false,                           // remove nav container
