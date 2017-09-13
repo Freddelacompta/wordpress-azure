@@ -115,6 +115,7 @@ setInterval(function(){
     var $title = $("h2>a");
     var $main = $("#container");
     var $category = $(".category >a");
+    var $linkMenu = $("nav a");
 
 
   $img.hover(
@@ -138,6 +139,12 @@ setInterval(function(){
       $main.removeClass( "hover" )
     });
   
+  $linkMenu.hover(
+    function() {
+      $main.addClass( "hover" );
+    },function() {
+      $main.removeClass( "hover" )
+    });
 
 }, 200);
 
