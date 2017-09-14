@@ -1,5 +1,5 @@
 			<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-
+			<?php if(!is_404()){ ?>
 				<div id="inner-footer" class="wrap cf">
 
 					<nav role="navigation">
@@ -24,6 +24,7 @@
 					</a>
 				</p>
 				</div>
+			<?php } ?>
 			</footer>
 
 		</div>
