@@ -24,9 +24,10 @@
                   <p class="byline entry-meta vcard">
                     <span class="avatar-author"><?php echo get_avatar( get_the_author_meta( 'ID' ), 32 ); ?></span>
                     <span class="details-author">
-                      <?php printf( __( 'Rédigé avec ❤️ ', 'bonestheme' ).' %1$s %2$s',
+                      <?php printf( __( 'Rédigé avec', 'bonestheme' ).' %1$s %2$s',
                          /* the author of the post */
-                         '<span class="by">'.__( 'by', 'bonestheme' ).'</span> <span class="entry-author author" itemprop="author" itemscope itemptype="http://schema.org/Person">' . get_the_author_link( get_the_author_meta( 'ID' ) ) . '</span>',
+                          '<img class="emoji" src="'.  get_template_directory_uri().'/library/images/heart-red.png" />
+                         <span class="by">'.__( ' by', 'bonestheme' ).'</span> <span class="entry-author author" itemprop="author" itemscope itemptype="http://schema.org/Person">' . get_the_author_link( get_the_author_meta( 'ID' ) ) . '</span>',
                          /* the time the post was published */
                          '<span class="the">'.__( 'le', 'bonestheme' ).'</span> <time class="updated entry-time" datetime="' . get_the_time('Y-m-d') . '" itemprop="datePublished">' . get_the_time(get_option('date_format')) . '</time>'
                       ); ?>
@@ -77,7 +78,7 @@
                   ?>
                   <section id="post-<?php the_ID(); ?>" <?php post_class( 'article-list cf m-all t-1of3 d-1of3' ); ?> role="article">
                                 <header class="article-header">
-                                <a class="image" style="color :<?php the_field("shadow_hover"); ?>;" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('bones-thumb-400'); ?></a>
+                                <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('bones-thumb-400'); ?></a>
 
                                   <h2 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 
