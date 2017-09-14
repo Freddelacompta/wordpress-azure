@@ -23,7 +23,7 @@
 
 							<footer class="cf article-footer">
 
-									<a class="white-btn" href="/blog" title="Retour sur le blog">Revenir à la liste des articles</a>
+									<a class="white-btn" href="/" title="Retour sur le blog">Revenir à la liste des articles</a>
 
 							</footer>
 
