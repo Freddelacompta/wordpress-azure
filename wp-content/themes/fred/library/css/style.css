@@ -1386,8 +1386,7 @@ article a.image,
       width: 100%; }
       #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input {
         width: 100%;
-        padding: 1em 0.5em !important;
-        border-width: 0 !important; }
+        padding: 1em 0.5em !important; }
     #sendgrid_mc_email_subscribe .widget .sendgrid_mc_input_div {
       border-width: 0px 0px 1px 0px;
       border-style: solid;
