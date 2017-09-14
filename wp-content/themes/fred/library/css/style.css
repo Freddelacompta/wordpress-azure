@@ -1435,13 +1435,11 @@ body.single .post header h2,
   margin: 2em 0em 0em 0em; }
 
 /* for sites that are read right to left (i.e. hebrew) */
-.home #content header {
-  margin-top: 3em; }
-  .home #content header h1 {
-    font-size: 3.188em;
-    line-height: 1.25em;
-    text-align: center;
-    margin-bottom: 0.5em; }
+.home #content header h1 {
+  font-size: 3.188em;
+  line-height: 1.25em;
+  text-align: center;
+  margin-bottom: 0.5em; }
 
 /* home page */
 .blog #more_posts {
