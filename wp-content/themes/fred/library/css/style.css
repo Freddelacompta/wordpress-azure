@@ -933,27 +933,25 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-.white-btn, header #menu-header-right .who-is a,
-header #menu-blog-header-right .who-is a, .blue-btn, .blue-btn-calculator, header .nav > li.estimation a, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input {
+.white-btn, .black-btn, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input, .blue-btn, .blue-btn-calculator, header .nav > li.estimation a {
   transition: color .3s ease;
   clear: both;
   font-weight: bold;
-  border-radius: 2px;
+  padding: 1em 2em;
   font-family: "circular std", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   font-size: 0.875em;
-  line-height: 1.125em;
-  font-weight: bold;
+  line-height: 1.286em;
   cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 2px;
   -webkit-transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out; }
-  .white-btn:hover, header #menu-header-right .who-is a:hover,
-  header #menu-blog-header-right .who-is a:hover, .blue-btn:hover, .blue-btn-calculator:hover, header .nav > li.estimation a:hover, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input:hover, .white-btn:focus, header #menu-header-right .who-is a:focus,
-  header #menu-blog-header-right .who-is a:focus, .blue-btn:focus, .blue-btn-calculator:focus, header .nav > li.estimation a:focus, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input:focus {
+  .white-btn:hover, .black-btn:hover, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input:hover, .blue-btn:hover, .blue-btn-calculator:hover, header .nav > li.estimation a:hover, .white-btn:focus, .black-btn:focus, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input:focus, .blue-btn:focus, .blue-btn-calculator:focus, header .nav > li.estimation a:focus {
     text-decoration: none;
     outline: none; }
-  .white-btn:active, header #menu-header-right .who-is a:active,
-  header #menu-blog-header-right .who-is a:active, .blue-btn:active, .blue-btn-calculator:active, header .nav > li.estimation a:active, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input:active {
+  .white-btn:active, .black-btn:active, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input:active, .blue-btn:active, .blue-btn-calculator:active, header .nav > li.estimation a:active {
     top: 1px; }
 
 /*
@@ -961,23 +959,27 @@ An example button.
 You can use this example if you want. Just replace all the variables
 and it will create a button dependant on those variables.
 */
-.white-btn, header #menu-header-right .who-is a,
-header #menu-blog-header-right .who-is a {
-  padding: 1.25em 2em;
+.white-btn {
   background-color: #fff;
   color: #222222;
-  border: 1px solid #222222; }
-  .white-btn:hover, header #menu-header-right .who-is a:hover,
-  header #menu-blog-header-right .who-is a:hover, .white-btn:focus, header #menu-header-right .who-is a:focus,
-  header #menu-blog-header-right .who-is a:focus {
+  border-color: #222222; }
+  .white-btn:hover, .white-btn:focus {
     background-color: #222222;
     color: #fff; }
 
-.blue-btn, .blue-btn-calculator, header .nav > li.estimation a, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input {
+.black-btn, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input {
+  background-color: #222222;
+  color: #fff;
+  border-color: #222222; }
+  .black-btn:hover, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input:hover, .black-btn:focus, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input:focus {
+    background-color: #fff;
+    color: #222222; }
+
+.blue-btn, .blue-btn-calculator, header .nav > li.estimation a {
   color: #fff !important;
   padding: 1em 1.5em 1em 3em;
   background-color: #748ffc; }
-  .blue-btn:hover, .blue-btn-calculator:hover, header .nav > li.estimation a:hover, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input:hover, .blue-btn:focus, .blue-btn-calculator:focus, header .nav > li.estimation a:focus, #sendgrid_mc_email_subscribe .widget .sendgrid_mc_button_div input:focus {
+  .blue-btn:hover, .blue-btn-calculator:hover, header .nav > li.estimation a:hover, .blue-btn:focus, .blue-btn-calculator:focus, header .nav > li.estimation a:focus {
     background-color: #5372ee; }
 
 .blue-btn-calculator, header .nav > li.estimation a {
@@ -1337,7 +1339,7 @@ article a.image,
   .archive a.image img:active,
   .article-list a.image img:hover,
   .article-list a.image img:active {
-    box-shadow: 0 10px 32px 0; }
+    box-shadow: 0 14px 30px 0; }
 
 .transition, #container, body.single .post header img,
 .article-top a img,
@@ -1419,20 +1421,26 @@ body.single .post header h2,
   .article-list header h2 a:focus {
     text-decoration: underline; }
 
-.article-top h2 a {
-  margin-bottom: 0; }
-  .article-top h2 a:hover, .article-top h2 a:focus {
-    text-decoration: underline; }
-.article-top .entry-content {
-  margin: 1em 0em; }
-  .article-top .entry-content p {
-    font-size: 0.875em;
-    color: #999999;
-    font-weight: 300;
-    line-height: 1.786em; }
+.article-top {
+  margin-bottom: 3.750em; }
+  .article-top h2 {
+    margin: 1em 0 0.5em 0;
+    font-size: 2em; }
+    .article-top h2 a {
+      margin-bottom: 0; }
+      .article-top h2 a:hover, .article-top h2 a:focus {
+        text-decoration: underline; }
+  .article-top .entry-content {
+    margin: 2em 0em; }
+    .article-top .entry-content p {
+      margin: 0;
+      font-size: 0.875em;
+      color: #999999;
+      font-weight: 300;
+      line-height: 1.786em; }
 
-.article-list.d-1of3 {
-  margin: 2em 0em 0em 0em; }
+.article-list {
+  margin-bottom: 2.5em; }
 
 /* for sites that are read right to left (i.e. hebrew) */
 .home #content header h1 {
@@ -1454,10 +1462,10 @@ body.single .post header h2,
   display: block; }
 
 .related-posts {
-  margin: 2em 0 0 0;
+  margin: 5em 0 0 0;
   color: #222222;
   border-top: 1px solid #D8D8D8;
-  padding: 1.5em 0em;
+  padding: 2em 0em;
   font-weight: bold; }
 
 /* blog template page */
@@ -1472,7 +1480,7 @@ body.single .post header h2,
   margin-bottom: 4em;
   text-align: center; }
 .error404 main img {
-  margin: 2em 0 0 0;
+  margin: 6em 0 0 0;
   max-width: 100%; }
 .error404 main footer {
   margin: 2em 0; }
@@ -1481,7 +1489,8 @@ body.single .post header h2,
 
 /* 404 page */
 .single h1 {
-  margin-top: 0.5em; }
+  line-height: 1.265em;
+  margin: 0.941em 0 0.471em 0; }
 
 /* single post page */
 /* individual post page by id (i.e. body.postid-73) */
@@ -1493,11 +1502,13 @@ body.single .post header h2,
 /* user nicename (i.e. body.author-samueladams) */
 /* paged author archives (i.e. body.author-paged-4) for page 4 */
 #content .category {
-  font-family: "mercury", Cambria, Times New Roman, Times, serif;
-  font-weight: bold;
-  font-size: 1.125em;
-  margin: 0.5em 0; }
+  margin: 0em 0;
+  line-height: 1.188em; }
   #content .category a {
+    font-family: "mercury", Cambria, Times New Roman, Times, serif;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.188em;
     text-transform: capitalize; }
     #content .category a:hover, #content .category a:focus {
       text-decoration: underline !important; }
@@ -1563,6 +1574,7 @@ H1, H2, H3, H4, H5 STYLES
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
   font-family: "circular std", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: -0.5px;
   /*
   if you're going to use webfonts, be sure to check your weights
   http://css-tricks.com/watch-your-font-weight/
@@ -1608,14 +1620,16 @@ footer .logo {
   text-align: center; }
 
 header .logo {
-  text-align: left; }
+  text-align: left;
+  margin: 0.714em 0;
+  padding: 0 !important; }
   header .logo a {
     display: block; }
 
 .logo {
   text-align: left; }
   .logo a img {
-    max-width: 100px; }
+    max-width: 102px; }
 
 /*********************
 NAVIGATION STYLES
@@ -1721,29 +1735,53 @@ footer {
 
 header {
   /* end .nav */ }
-  header p {
+  header .entry-content .p {
     font-size: 0.875em; }
+  header #menu-header-right,
+  header #menu-blog-header-right,
   header #menu-header-left,
   header #menu-blog-header-left {
     text-align: left; }
+    header #menu-header-right .all-posts,
+    header #menu-header-right .who-is,
+    header #menu-blog-header-right .all-posts,
+    header #menu-blog-header-right .who-is,
     header #menu-header-left .all-posts,
-    header #menu-blog-header-left .all-posts {
+    header #menu-header-left .who-is,
+    header #menu-blog-header-left .all-posts,
+    header #menu-blog-header-left .who-is {
       padding: 0; }
+      header #menu-header-right .all-posts a,
+      header #menu-header-right .who-is a,
+      header #menu-blog-header-right .all-posts a,
+      header #menu-blog-header-right .who-is a,
       header #menu-header-left .all-posts a,
-      header #menu-blog-header-left .all-posts a {
+      header #menu-header-left .who-is a,
+      header #menu-blog-header-left .all-posts a,
+      header #menu-blog-header-left .who-is a {
         font-weight: inherit;
-        background-image: url(../images/arrow-left-back.svg);
         background-repeat: no-repeat;
-        background-position: left 1.5em;
-        padding: 1.6em 1em 1.25em 2.5em;
-        background-size: 32px; }
+        padding: 1.6em 1em 1.25em 3.429em;
+        background-size: 32px;
+        font-size: 0.875em; }
+    header #menu-header-right .who-is a,
+    header #menu-blog-header-right .who-is a,
+    header #menu-header-left .who-is a,
+    header #menu-blog-header-left .who-is a {
+      background-image: url(../images/arrow-right-back.svg);
+      padding: 1.6em 3.429em 1.25em 1em;
+      background-position: right 1.5em; }
+    header #menu-header-right .all-posts a,
+    header #menu-blog-header-right .all-posts a,
+    header #menu-header-left .all-posts a,
+    header #menu-blog-header-left .all-posts a {
+      background-image: url(../images/arrow-left-back.svg);
+      padding: 1.6em 1em 1.25em 3.429em;
+      background-position: left 1.5em; }
   header #menu-header-right,
   header #menu-blog-header-right {
     text-align: right;
     padding-right: 0 !important; }
-    header #menu-header-right .who-is,
-    header #menu-blog-header-right .who-is {
-      padding: 1em 0; }
   header .nav {
     border-bottom: 0;
     margin: 0;
@@ -1835,9 +1873,14 @@ POSTS & CONTENT STYLES
       width: 32px;
       height: 32px; }
   .byline .avatar-author,
-  .byline .details-author {
+  .byline .details-author,
+  .byline img.emoji {
     display: inline-block;
     vertical-align: middle; }
+    .byline .avatar-author img.emoji,
+    .byline .details-author img.emoji,
+    .byline img.emoji img.emoji {
+      width: 20px !important; }
   .byline .author, .byline .the, .byline time {
     color: #222222;
     font-weight: bold; }
@@ -1850,6 +1893,8 @@ POSTS & CONTENT STYLES
   and floating images at the next breakpoint,
   but it's up to you. Feel free to change it up.
   */ }
+  .entry-content :last-child {
+    margin-bottom: 0; }
   .entry-content p {
     margin: 1em 0; }
   .entry-content a {
@@ -2271,10 +2316,10 @@ you can add resource intensive styles.
   
   ******************************************************************/
   #content {
-    margin-top: 57px; }
+    margin-top: 51px; }
 
   header.header {
-    height: 89px;
+    height: 83px;
     position: fixed;
     top: 0;
     width: 100%;

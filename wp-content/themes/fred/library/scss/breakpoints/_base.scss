@@ -52,8 +52,7 @@ article,
 		img{
 			&:hover,
 			&:active{
-				box-shadow: 0 10px 32px 0;
-				//box-shadow: 0px 0px 40px 0px;
+				box-shadow: 0 14px 30px 0;
 
 			}
 		}
@@ -121,7 +120,7 @@ article,
 			.sendgrid_mc_button_div{
 				width: 100%;
 				input{
-					@extend .blue-btn;
+					@extend .black-btn;
 					width: 100%;
 					padding: 1em 0.5em !important;
 					border-width: 0 !important; 
@@ -184,7 +183,11 @@ body.single .post header,
 }
 
 .article-top{
+	margin-bottom: 3.750em;
 	h2{
+		margin: 1em 0 0.5em 0;
+		font-size: 2em;
+
 		a{
 			margin-bottom: 0;
 
@@ -200,9 +203,10 @@ body.single .post header,
 			
 
 	.entry-content{
-		margin:1em 0em;
+		margin:2em 0em;
 
 		p{
+			margin: 0;
 			font-size: 0.875em;
 			color: $gray-dark;
 			font-weight: 300;
@@ -213,13 +217,7 @@ body.single .post header,
 }
 
 .article-list{
-
-		&.d-1of3{
-			margin:2em 0em 0em 0em; 
-			header{
-				
-			}
-		}
+	margin-bottom: 2.5em;
 
 }
 .rtl {}                           /* for sites that are read right to left (i.e. hebrew) */
@@ -275,10 +273,10 @@ body.single .post header,
 }  
 
 .related-posts{
-	margin: 2em 0 0 0;
+	margin: 5em 0 0 0;
 	color: $black;
 	border-top: 1px solid $gray;
-	padding: 1.5em 0em;
+	padding: 2em 0em;
 	font-weight:bold;
 }
                        /* blog template page */
@@ -312,7 +310,7 @@ body.single .post header,
 
 
 		img{
-			margin: 2em 0 0 0;
+			margin: 6em 0 0 0;
 			max-width: 100%;
 
 
@@ -329,7 +327,8 @@ body.single .post header,
 .single {
 
 	h1{
-		margin-top: 0.5em;
+		line-height: 1.265em;
+		margin: 0.941em 0 0.471em 0;
 	}
 }                        /* single post page */
 	.postid-1 {}                    /* individual post page by id (i.e. body.postid-73) */
@@ -341,13 +340,15 @@ body.single .post header,
 	.author-nicename {}             /* user nicename (i.e. body.author-samueladams) */
 	.author-paged-1 {}              /* paged author archives (i.e. body.author-paged-4) for page 4 */
 #content .category {
-	font-family: $serif;
-	font-weight: bold;
-	font-size: 1.125em;
-	margin: 0.5em 0;
 
+	margin: 0em 0;
+	line-height: 1.188em;
 	a{
 
+		font-family: $serif;
+		font-weight: bold;
+		font-size: 1em;
+		line-height: 1.188em;
 		text-transform: capitalize;		
 
 		&:hover,
@@ -447,6 +448,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	text-rendering: optimizelegibility;
 	//font-weight: 500;
 	font-family: $sans-serif;
+	letter-spacing: -0.5px;
 	/*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
@@ -511,6 +513,8 @@ footer{
 header{
 		.logo {
 			text-align: left;
+			margin:0.714em 0;
+			padding: 0 !important;
 			a {
 				display: block;
 			}
@@ -521,7 +525,7 @@ header{
 	text-align: left;
 	a {
 		img{
-			max-width:100px;
+			max-width:102px;
 		}
 	}
 }
@@ -716,25 +720,46 @@ footer{
 
 header{
 	
-	p{
-		font-size: 0.875em;
-
+	.entry-content{
+		.p{
+			font-size: 0.875em;
+		}
 	}
 
 
+	#menu-header-right,
+	#menu-blog-header-right,
 	#menu-header-left,
 	#menu-blog-header-left{
 		text-align: left;
 
-		.all-posts{
+		.all-posts,
+		.who-is{
 			padding: 0;
 			a{
 				font-weight: inherit;
-				background-image: url(../images/arrow-left-back.svg);
 				background-repeat: no-repeat;
-				background-position: left 1.5em;
-				padding: 1.6em 1em 1.25em 2.5em;
+				padding: 1.6em 1em 1.25em 3.429em;
 				background-size: 32px;
+				font-size:0.875em;
+			}
+		}
+
+		.who-is{
+			a{
+				background-image: url(../images/arrow-right-back.svg);
+				padding: 1.6em 3.429em 1.25em 1em;
+				background-position: right 1.5em;
+
+			}
+		}
+
+		.all-posts{
+			a{
+				background-image: url(../images/arrow-left-back.svg);
+				padding: 1.6em 1em 1.25em 3.429em;
+				background-position: left 1.5em;
+
 			}
 		}
 
@@ -743,15 +768,7 @@ header{
 	#menu-blog-header-right{
 		text-align: right;
 		padding-right: 0 !important;
-
-		.who-is{
-			padding: 1em 0;
-
-
-			a{
-			@extend .white-btn;
-			}
-		}
+		
 	}
 	.nav {
 		border-bottom: 0;
@@ -1005,9 +1022,14 @@ POSTS & CONTENT STYLES
 			}
 
 			.avatar-author,
-			.details-author{
+			.details-author,
+			img.emoji{
 				display: inline-block;
 				vertical-align: middle;
+
+				img.emoji{
+					width: 20px !important;
+				}
 			}
 
 
@@ -1025,6 +1047,9 @@ POSTS & CONTENT STYLES
 
 		/* entry content */
 		.entry-content {
+			:last-child {
+				margin-bottom: 0;
+			}
 
 			p {
 				margin: 1em 0;
