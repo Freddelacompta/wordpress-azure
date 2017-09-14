@@ -77,7 +77,7 @@
 					?>
 					<nav class="cf" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 					<?php  // check if it's the homepage of the blog or not. If not, add the WP menu which add a go back link ?>
-					<?php if ($endWith === ".com" || $endWith === "com/" || is_page_template( '404.php' )) {
+					<?php if ($endWith === ".com" || $endWith === "com/" || is_404()) {
 						echo "<div class='cf d-1of3 t-1of3 m-all'>&nbsp;</div>";
 
 					} else{ ?>
@@ -99,7 +99,7 @@
 						<?php } ?>
 
 						<p class="d-1of3 t-1of3 m-1of2 logo" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><img src="<?php echo get_template_directory_uri(); ?>/library/images/logo-fred-de-la-compta-black.svg" alt="Fred de la compta, le blog"></a></span></p>
-
+						<?php if(!is_404()){?>
 						<?php wp_nav_menu(array(
 					         'container' => false,                           // remove nav container
 					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
@@ -113,6 +113,7 @@
     			               'depth' => 0,                                   // limit the depth of the nav
 					         'fallback_cb' => ''                             // fallback function (if there is one)
 						)); ?>
+						<?php } ?>
 
 					</nav>
 
