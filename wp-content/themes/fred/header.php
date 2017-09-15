@@ -49,8 +49,8 @@
 	</head>
 <?php // if user is not logged in, don't display anything. Else display the blog ?>
 <?php if (!is_user_logged_in() ) {
-	wp_redirect ( "" );
-	exit;
+	//wp_redirect ( "" );
+	//exit;
 }
 ?>
 
