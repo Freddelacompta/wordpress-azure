@@ -154,7 +154,7 @@ setInterval(function(){
         $main.removeClass( "hover" )
       });
 }, 200);
-*/
+*/ 
 
   /*
    * Let's fire off the gravatar function
