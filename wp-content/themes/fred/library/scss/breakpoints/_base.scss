@@ -63,6 +63,8 @@ article,
 	transition: 0.3s all;
 }
 
+
+// sendgrid widget subscription
 #sendgrid_mc_email_subscribe{
 		margin: 2em 0 2em 0;
 	    .widget{
@@ -146,6 +148,29 @@ article,
 	    }
 }
 
+
+// Sendgrid error page.
+.page-id--1{
+	#content{
+		.article-header {
+		 	display: none;
+		}
+		#sendgrid_mc_email_subscribe{
+			margin: 2em auto;
+		}
+	}
+
+	main{
+		margin-top: 3em;
+	}
+
+}
+// subscription validation page
+.page-id-350{
+	main{
+		margin: 6em 0;
+	}
+}
 
 
 body.single .post header,
