@@ -109,7 +109,7 @@ function loadGravatars() {
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function($) {
-
+/*
 setInterval(function(){
     var $img = $("a.image>img");
     var $title = $("h2>a");
@@ -154,7 +154,7 @@ setInterval(function(){
         $main.removeClass( "hover" )
       });
 }, 200);
-
+*/
 
   /*
    * Let's fire off the gravatar function
