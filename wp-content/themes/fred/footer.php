@@ -19,7 +19,7 @@
 					</nav>
 
 				<p class="logo" itemscope itemtype="http://schema.org/Organization">
-					<a href="<?php echo home_url(); ?>" rel="nofollow">
+					<a href="https://www.freddelacompta.com" rel="nofollow">
 						<img src="<?php echo get_template_directory_uri(); ?>/library/images/logo-fred-de-la-compta-orange.png" alt="Fred de la compta">
 					</a>
 				</p>
