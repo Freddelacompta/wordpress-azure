@@ -513,10 +513,14 @@ footer{
 header{
 		.logo {
 			text-align: left;
-			margin:0.714em 0;
+			margin:0;
 			padding: 0 !important;
 			a {
 				display: block;
+				
+				img{
+					padding: 0.688em 0;
+				}
 			}
 		}
 }
@@ -739,17 +743,18 @@ header{
 			a{
 				font-weight: inherit;
 				background-repeat: no-repeat;
-				padding: 1.6em 1em 1.25em 3.429em;
-				background-size: 32px;
+				background-size: 24px;
 				font-size:0.875em;
 			}
 		}
 
 		.who-is{
 			a{
-				background-image: url(../images/arrow-right-back.svg);
-				padding: 1.6em 3.429em 1.25em 1em;
-				background-position: right 1.5em;
+				//background-image: url(../images/arrow-right-back.svg);
+				padding: 1.3em 0em 1.25em 1em;
+				//background-position: right 1.5em;
+				//font-weight: bold;
+				color: $black;
 
 			}
 		}
@@ -757,7 +762,7 @@ header{
 		.all-posts{
 			a{
 				background-image: url(../images/arrow-left-back.svg);
-				padding: 1.6em 1em 1.25em 3.429em;
+				padding: 1.3em 1em 1.25em 2.857em;
 				background-position: left 1.5em;
 
 			}
