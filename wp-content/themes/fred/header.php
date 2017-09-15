@@ -78,7 +78,7 @@
 					<nav class="cf" role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 					<?php  // check if it's the homepage of the blog or not. If not, add the WP menu which add a go back link ?>
 					<?php if ($endWith === ".com" || $endWith === "com/" || is_404()) {
-						echo "<div class='cf d-1of3 t-1of3 m-all'>&nbsp;</div>";
+						echo "<div class='m-display-none cf d-1of3 t-1of3 m-all'>&nbsp;</div>";
 
 					} else{ ?>
 
