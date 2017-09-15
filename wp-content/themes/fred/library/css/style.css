@@ -1397,10 +1397,12 @@ article a.image,
       font-weight: bold;
       color: #999999; }
 
-.page-id--1 #content .article-header {
-  display: none; }
-.page-id--1 #content #sendgrid_mc_email_subscribe {
-  margin: 2em auto; }
+.page-id--1 #content {
+  text-align: center; }
+  .page-id--1 #content .article-header {
+    display: none; }
+  .page-id--1 #content #sendgrid_mc_email_subscribe {
+    margin: 2em auto; }
 .page-id--1 main {
   margin-top: 3em; }
 
