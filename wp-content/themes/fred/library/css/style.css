@@ -1435,7 +1435,7 @@ body.single .post header h2,
     display: none;
     visibility: hidden; }
   .article-top .entry-content {
-    margin: 2em 0em; }
+    margin: 2em auto; }
     .article-top .entry-content p {
       margin: 0;
       font-size: 0.875em;
