@@ -504,14 +504,12 @@ FONT FACE (IN YOUR FACE)
 */
 @font-face {
   font-family: 'circular std';
-  src: url(../fonts/CircularStd-Bold.eot);
-  src: url(../fonts/CircularStd-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/CircularStd-Bold.woff) format("woff"), url(../fonts/CircularStd-Bold.ttf) format("truetype");
+  src: url(../fonts/CircularStd-Bold.woff);
   font-weight: bold;
   font-style: normal; }
 @font-face {
   font-family: 'circular std';
-  src: url(../fonts/CircularStd-Book.eot);
-  src: url(../fonts/CircularStd-Book.eot?#iefix) format("embedded-opentype"), url(../fonts/CircularStd-Book.woff) format("woff"), url(../fonts/CircularStd-Book.ttf) format("truetype");
+  src: url(../fonts/CircularStd-Book.woff);
   font-weight: normal;
   font-style: normal; }
 @font-face {
