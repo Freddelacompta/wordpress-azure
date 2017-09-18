@@ -42,66 +42,37 @@ FONT FACE (IN YOUR FACE)
 
 
 
-@font-face {
-  font-family: "Circular Std Book";
-  src: url("../fonts/lineto-circular-pro-book.woff");
-}
+  @font-face {
+      font-family: 'circular std';
+      src: url(../fonts/CircularStd-Bold.eot);
+      src: url(../fonts/CircularStd-Bold.eot?#iefix) format('embedded-opentype'),
+             url(../fonts/CircularStd-Bold.woff) format('woff'),
+             url(../fonts/CircularStd-Bold.ttf) format('truetype');
+      font-weight: bold;
+      font-style: normal;
+  }
 
-
-
-
-body {
-  //font-family: "Bitstream Vera Serif Bold", serif;
-} 
-
-
-/*  @font-face {
-      font-family: 'Font Name';
-      src: url('library/fonts/font-name.eot');
-      src: url('library/fonts/font-name.eot?#iefix') format('embedded-opentype'),
-             url('library/fonts/font-name.woff') format('woff'),
-             url('library/fonts/font-name.ttf') format('truetype'),
-             url('library/fonts/font-name.svg#font-name') format('svg');
+  @font-face {
+      font-family: 'circular std';
+      src: url(../fonts/CircularStd-Book.eot);
+      src: url(../fonts/CircularStd-Book.eot?#iefix) format('embedded-opentype'),
+             url(../fonts/CircularStd-Book.woff) format('woff'),
+             url(../fonts/CircularStd-Book.ttf) format('truetype');
       font-weight: normal;
       font-style: normal;
   }
-*/
 
 
-//  @font-face {
-  //    font-family: 'circular std Bold';
-      //src: url(../fonts/CircularStd-Bold.eot);
-    //  src: url(../fonts/CircularStd-Bold.woff);
-      //src: url(../fonts/CircularStd-Bold.eot?#iefix) format('embedded-opentype'),
-      //       url(../fonts/CircularStd-Bold.woff) format('woff'),
-      //       url(../fonts/CircularStd-Bold.ttf) format('truetype');
-     // font-weight: bold;
-     // font-style: normal;
-  //}
-
-  //@font-face {
-     // font-family: 'circular std Book';
-      //src: url(../fonts/CircularStd-Book.eot);
-      //src: url(../fonts/CircularStd-Book.woff);
-      //src: url(../fonts/CircularStd-Book.eot?#iefix) format('embedded-opentype'),
-      //       url(../fonts/CircularStd-Book.woff) format('woff'),
-      //       url(../fonts/CircularStd-Book.ttf) format('truetype');
-     // font-weight: normal;
-     // font-style: normal;
-  //}
-
-
-  //@font-face {
-     // font-family: 'mercury bold';
-     // src: url(../fonts/Mercury-Bold.woff);
-      //src: url(../fonts/Mercury-Bold.eot);
-      //src: url(../fonts/Mercury-Bold.eot?#iefix) format('embedded-opentype'),
-             //url(../fonts/Mercury-Bold.woff) format('woff'),
-             //url(../fonts/Mercury-Bold.ttf) format('truetype'),
-             //url(../fonts/Mercury-Bold.svg#Mercury-Bold) format('svg');
-    //  font-weight: bold;
-    //  font-style: normal;
-  //}
+  @font-face {
+      font-family: 'mercury';
+      src: url(../fonts/Mercury-Bold.eot);
+      src: url(../fonts/Mercury-Bold.eot?#iefix) format('embedded-opentype'),
+             url(../fonts/Mercury-Bold.woff) format('woff'),
+             url(../fonts/Mercury-Bold.ttf) format('truetype'),
+             url(../fonts/Mercury-Bold.svg#Mercury-Bold) format('svg');
+      font-weight: bold;
+      font-style: normal;
+  }
 
 /*
 The following is based of Typebase:
@@ -111,18 +82,17 @@ I've edited it a bit, but it's a nice starting point.
 
 
 // font stacks
-$sans-serif:        'Circular Std Book',"Helvetica Neue", Helvetica, Arial, sans-serif;
-//$sans-serif:        'Circular Std Book';
-$serif:             "mercury bold", Cambria, Times New Roman, Times, serif;
+$sans-serif:        'circular std',"Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif:             "mercury", Cambria, Times New Roman, Times, serif;
 
 /*
  i imported this one in the functions file so bones would look sweet.
  don't forget to remove it for your site.
 */
-//$lato:          'Lato', $sans-serif;
-//$circular-Std:  'circular std', $sans-serif;
-//$circular-bold: 'circular bold', $sans-serif;
-//$mercury-Bold:  'mercury', $sans-serif;
+// $lato:          'Lato', $sans-serif;
+// $circular-Std:  'circular std', $sans-serif;
+// $circular-bold: 'circular bold', $sans-serif;
+// $mercury-Bold:  'mercury', $sans-serif;
 /*
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
