@@ -42,37 +42,34 @@ FONT FACE (IN YOUR FACE)
 
 
 
-  @font-face {
-      font-family: 'circular std';
-      src: url(../fonts/CircularStd-Bold.eot);
-      src: url(../fonts/CircularStd-Bold.eot?#iefix) format('embedded-opentype'),
-             url(../fonts/CircularStd-Bold.woff) format('woff'),
-             url(../fonts/CircularStd-Bold.ttf) format('truetype');
-      font-weight: bold;
-      font-style: normal;
-  }
+@font-face {
+  font-family: 'circular-book';
+  src: url('../fonts/circular/circular-book.eot');
+  src: local('☺'), url('../fonts/circular/circular-book.woff') format('woff'), url('../fonts/circular/circular-book.ttf') format('truetype'), url('../fonts/circular/circular-book.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
-  @font-face {
-      font-family: 'circular std';
-      src: url(../fonts/CircularStd-Book.eot);
-      src: url(../fonts/CircularStd-Book.eot?#iefix) format('embedded-opentype'),
-             url(../fonts/CircularStd-Book.woff) format('woff'),
-             url(../fonts/CircularStd-Book.ttf) format('truetype');
-      font-weight: normal;
-      font-style: normal;
-  }
+@font-face {
+  font-family: 'circular-bold';
+  src: url('../fonts/circular/circular-book.eot');
+  src: local('☺'), url('../fonts/circular/circular-bold.woff') format('woff'), url('../fonts/circular/circular-bold.ttf') format('truetype'), url('../fonts/circular/circular-bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
 
-  @font-face {
-      font-family: 'mercury';
-      src: url(../fonts/Mercury-Bold.eot);
-      src: url(../fonts/Mercury-Bold.eot?#iefix) format('embedded-opentype'),
-             url(../fonts/Mercury-Bold.woff) format('woff'),
-             url(../fonts/Mercury-Bold.ttf) format('truetype'),
-             url(../fonts/Mercury-Bold.svg#Mercury-Bold) format('svg');
-      font-weight: bold;
-      font-style: normal;
-  }
+@font-face {
+  font-family: 'Mercury-Bold';
+  src: url('../fonts/mercury/Mercury-Bold.eot');
+  src: local('☺'), url('../fonts/mercury/Mercury-Bold.woff') format('woff'), url('../fonts/mercury/Mercury-Bold.ttf') format('truetype'), url('../fonts/mercury/Mercury-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
 
 /*
 The following is based of Typebase:
@@ -82,8 +79,8 @@ I've edited it a bit, but it's a nice starting point.
 
 
 // font stacks
-$sans-serif:        'circular std',"Helvetica Neue", Helvetica, Arial, sans-serif;
-$serif:             "mercury", Cambria, Times New Roman, Times, serif;
+$sans-serif:        'circular-book',"Helvetica Neue", Helvetica, Arial, sans-serif;
+$serif:             'Mercury-Bold', Cambria, Times New Roman, Times, serif;
 
 /*
  i imported this one in the functions file so bones would look sweet.
