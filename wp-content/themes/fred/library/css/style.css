@@ -1187,8 +1187,7 @@ input[type="password"] {
 p.sendgrid_widget_success {
   background-image: none !important;
   padding: 1em;
-  margin: 0 5em !important;
-  font-weight: normal !important; }
+  margin: 0 5em !important; }
 
 p.sendgrid_widget_error {
   margin: 0 5em !important;
