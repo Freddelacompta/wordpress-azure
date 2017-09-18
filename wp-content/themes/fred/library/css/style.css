@@ -1500,7 +1500,6 @@ body.single .post header h2,
 /* user nicename (i.e. body.author-samueladams) */
 /* paged author archives (i.e. body.author-paged-4) for page 4 */
 #content .category {
-  text-transform: capitalize;
   font-weight: bold;
   font-family: "Mercury-Bold", Cambria, Times New Roman, Times, serif;
   text-transform: capitalize;
@@ -1845,7 +1844,9 @@ POSTS & CONTENT STYLES
 
 /* end .hentry */
 .archive-title {
-  font-size: 2.5em !important; }
+  font-size: 2.5em !important;
+  text-align: center;
+  margin: 0 1.212em; }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
@@ -2313,7 +2314,7 @@ you can add resource intensive styles.
   
   ******************************************************************/
   #content {
-    margin-top: 75px; }
+    margin-top: 43px; }
 
   header.header {
     height: 75px;
