@@ -1734,7 +1734,8 @@ footer {
           footer .nav > li ul.sub-menu li a,
           footer .nav > li ul.children li a {
             color: #999999;
-            font-size: 0.875em; }
+            font-size: 0.875em;
+            font-weight: 300; }
             footer .nav > li ul.sub-menu li a:hover, footer .nav > li ul.sub-menu li a:focus,
             footer .nav > li ul.children li a:hover,
             footer .nav > li ul.children li a:focus {
