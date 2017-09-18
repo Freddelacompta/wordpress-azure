@@ -504,6 +504,12 @@ FONT FACE (IN YOUR FACE)
   }
 */
 @font-face {
+  font-family: 'circular-medium';
+  src: url("../fonts/circular/circular-medium.eot");
+  src: local("☺"), url("../fonts/circular/circular-medium.woff") format("woff"), url("../fonts/circular/circular-medium.ttf") format("truetype"), url("../fonts/circular/circular-medium.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
   font-family: 'circular-book';
   src: url("../fonts/circular/circular-book.eot");
   src: local("☺"), url("../fonts/circular/circular-book.woff") format("woff"), url("../fonts/circular/circular-book.ttf") format("truetype"), url("../fonts/circular/circular-book.svg") format("svg");
