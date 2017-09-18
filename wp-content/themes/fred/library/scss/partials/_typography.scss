@@ -43,7 +43,7 @@ FONT FACE (IN YOUR FACE)
 
 
   @font-face {
-      font-family: 'circular std';
+      font-family: 'circular std Bold';
       //src: url(../fonts/CircularStd-Bold.eot);
       src: url(../fonts/CircularStd-Bold.woff);
       //src: url(../fonts/CircularStd-Bold.eot?#iefix) format('embedded-opentype'),
@@ -91,10 +91,10 @@ $serif:             "mercury", Cambria, Times New Roman, Times, serif;
  i imported this one in the functions file so bones would look sweet.
  don't forget to remove it for your site.
 */
-$lato:          'Lato', $sans-serif;
-$circular-Std:  'circular std', $sans-serif;
-$circular-bold: 'circular bold', $sans-serif;
-$mercury-Bold:  'mercury', $sans-serif;
+//$lato:          'Lato', $sans-serif;
+//$circular-Std:  'circular std', $sans-serif;
+//$circular-bold: 'circular bold', $sans-serif;
+//$mercury-Bold:  'mercury', $sans-serif;
 /*
 some nice typographical defaults
 more here: http://www.newnet-soft.com/blog/csstypography
