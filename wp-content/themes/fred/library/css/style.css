@@ -509,13 +509,12 @@ FONT FACE (IN YOUR FACE)
   font-style: normal; }
 @font-face {
   font-family: 'circular std';
-  src: url(../fonts/lineto-circular-pro-book.woff);
+  src: url(../fonts/CircularStd-Book.woff);
   font-weight: normal;
   font-style: normal; }
 @font-face {
-  font-family: 'mercury';
-  src: url(../fonts/Mercury-Bold.eot);
-  src: url(../fonts/Mercury-Bold.eot?#iefix) format("embedded-opentype"), url(../fonts/Mercury-Bold.woff) format("woff"), url(../fonts/Mercury-Bold.ttf) format("truetype"), url(../fonts/Mercury-Bold.svg#Mercury-Bold) format("svg");
+  font-family: 'mercury bold';
+  src: url(../fonts/Mercury-Bold.woff);
   font-weight: bold;
   font-style: normal; }
 /*
@@ -1508,7 +1507,7 @@ body.single .post header h2,
   margin: 0em 0;
   line-height: 1.188em; }
   #content .category a {
-    font-family: "mercury", Cambria, Times New Roman, Times, serif;
+    font-family: "mercury bold", Cambria, Times New Roman, Times, serif;
     font-weight: bold;
     font-size: 1em;
     line-height: 1.188em;
@@ -1936,7 +1935,7 @@ POSTS & CONTENT STYLES
     font-style: italic;
     color: #222222;
     font-size: 1.250em;
-    font-family: "mercury", Cambria, Times New Roman, Times, serif;
+    font-family: "mercury bold", Cambria, Times New Roman, Times, serif;
     font-weight: bold;
     background-image: url(../images/quote-orange.png);
     background-position: top center;
