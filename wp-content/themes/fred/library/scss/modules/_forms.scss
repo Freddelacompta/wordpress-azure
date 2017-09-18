@@ -103,7 +103,7 @@ input[type="password"] {
 p.sendgrid_widget_success{
   @extend .success-answer;
   background-image: none!important;
-  border:1px solid $alert-green;
+  //border:1px solid $alert-green;
   padding: 1em;
   margin: 0 5em!important;
   font-weight: normal!important;
@@ -118,7 +118,7 @@ p.sendgrid_widget_error{
 }
 
 .success-answer{
-    font-size: inherit;
+    font-size: inherit !important;
     color: $alert-green;
     //border-color: $alert-green;
     background-color: $white;

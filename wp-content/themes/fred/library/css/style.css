@@ -1186,7 +1186,6 @@ input[type="password"] {
 
 p.sendgrid_widget_success {
   background-image: none !important;
-  border: 1px solid #51CF66;
   padding: 1em;
   margin: 0 5em !important;
   font-weight: normal !important; }
@@ -1228,7 +1227,7 @@ textarea.success,
 textarea.is-valid,
 .field.success,
 .field.is-valid, p.sendgrid_widget_success {
-  font-size: inherit;
+  font-size: inherit !important;
   color: #51CF66;
   background-color: #fff;
   background-repeat: no-repeat;
