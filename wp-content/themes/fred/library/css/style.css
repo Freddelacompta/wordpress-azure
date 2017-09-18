@@ -1700,7 +1700,7 @@ footer {
             opacity: 0.8;
             color: transparent; }
         footer .nav > li:last-child ul.sub-menu li.facebook a {
-          background-position-y: 0px; }
+          background-position-y: -1px; }
         footer .nav > li:last-child ul.sub-menu li.twitter a {
           background-position-y: -37px; }
         footer .nav > li:last-child ul.sub-menu li.instagram a {
