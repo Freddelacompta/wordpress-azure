@@ -615,7 +615,6 @@ footer{
 						a{
 							display: block;
 							color:transparent;
-							background-image: url(../images/social-icons-footer.png);
 							background-repeat: no-repeat;
 							width: 37px;
 							height: 37px;
@@ -629,32 +628,32 @@ footer{
 					
 						&.facebook{
 							a{
-								background-position-y: -1px;
+							background-image: url(../images/facebook-square-footer.svg);
 							}
 						}
 						&.twitter{
 							a{
-								background-position-y: -37px;
+							background-image: url(../images/twitter-square-footer.svg);
 							}
 						}
 						&.instagram{
 							a{
-								background-position-y: -73px;
+							background-image: url(../images/instagram-square-footer.svg);
 							}
 						}
 						&.linkedin{
 							a{
-								background-position-y: -109px;
+							background-image: url(../images/linkedin-square-footer.svg);
 							}
 						}
 						&.medium{
 							a{
-								background-position-y: -145px;
+							background-image: url(../images/medium-square-footer.svg);
 							}
 						}
 						&.pinterest{
 							a{
-								background-position-y: -181px;
+							background-image: url(../images/pinterest-square-footer.svg);
 							}
 						}
 						

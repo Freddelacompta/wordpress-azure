@@ -1685,7 +1685,6 @@ footer {
         footer .nav > li:last-child ul.sub-menu li a {
           display: block;
           color: transparent;
-          background-image: url(../images/social-icons-footer.png);
           background-repeat: no-repeat;
           width: 37px;
           height: 37px;
@@ -1694,17 +1693,17 @@ footer {
             opacity: 0.8;
             color: transparent; }
         footer .nav > li:last-child ul.sub-menu li.facebook a {
-          background-position-y: -1px; }
+          background-image: url(../images/facebook-square-footer.svg); }
         footer .nav > li:last-child ul.sub-menu li.twitter a {
-          background-position-y: -37px; }
+          background-image: url(../images/twitter-square-footer.svg); }
         footer .nav > li:last-child ul.sub-menu li.instagram a {
-          background-position-y: -73px; }
+          background-image: url(../images/instagram-square-footer.svg); }
         footer .nav > li:last-child ul.sub-menu li.linkedin a {
-          background-position-y: -109px; }
+          background-image: url(../images/linkedin-square-footer.svg); }
         footer .nav > li:last-child ul.sub-menu li.medium a {
-          background-position-y: -145px; }
+          background-image: url(../images/medium-square-footer.svg); }
         footer .nav > li:last-child ul.sub-menu li.pinterest a {
-          background-position-y: -181px; }
+          background-image: url(../images/pinterest-square-footer.svg); }
         footer .nav > li:last-child ul.sub-menu li.follow-us, footer .nav > li:last-child ul.sub-menu li.copyright {
           display: block; }
           footer .nav > li:last-child ul.sub-menu li.follow-us a, footer .nav > li:last-child ul.sub-menu li.copyright a {
