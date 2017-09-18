@@ -934,7 +934,7 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   clear: both;
   font-weight: bold;
   padding: 1em 2em;
-  font-family: "Circular Std Book";
+  font-family: "Circular Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
   font-size: 0.875em;
   line-height: 1.286em;
@@ -1304,7 +1304,7 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 body {
-  font-family: "Circular Std Book";
+  font-family: "Circular Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 30px;
   color: #222222;
@@ -1574,7 +1574,7 @@ H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
-  font-family: "Circular Std Book";
+  font-family: "Circular Std Book", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: -0.5px;
   /*
   if you're going to use webfonts, be sure to check your weights
