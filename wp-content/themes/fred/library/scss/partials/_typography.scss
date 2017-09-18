@@ -42,39 +42,66 @@ FONT FACE (IN YOUR FACE)
 
 
 
-  @font-face {
-      font-family: 'circular std Bold';
-      //src: url(../fonts/CircularStd-Bold.eot);
-      src: url(../fonts/CircularStd-Bold.woff);
-      //src: url(../fonts/CircularStd-Bold.eot?#iefix) format('embedded-opentype'),
-      //       url(../fonts/CircularStd-Bold.woff) format('woff'),
-      //       url(../fonts/CircularStd-Bold.ttf) format('truetype');
-      font-weight: bold;
-      font-style: normal;
-  }
+@font-face {
+  font-family: "Circular Std Book";
+  src: url("../fonts/CircularStd-Book.woff");
+}
 
-  @font-face {
-      font-family: 'circular std';
-      //src: url(../fonts/CircularStd-Book.eot);
-      src: url(../fonts/CircularStd-Book.woff);
-      //src: url(../fonts/CircularStd-Book.eot?#iefix) format('embedded-opentype'),
-      //       url(../fonts/CircularStd-Book.woff) format('woff'),
-      //       url(../fonts/CircularStd-Book.ttf) format('truetype');
+body {
+  //font-family: "Bitstream Vera Serif Bold", serif;
+} 
+
+
+/*  @font-face {
+      font-family: 'Font Name';
+      src: url('library/fonts/font-name.eot');
+      src: url('library/fonts/font-name.eot?#iefix') format('embedded-opentype'),
+             url('library/fonts/font-name.woff') format('woff'),
+             url('library/fonts/font-name.ttf') format('truetype'),
+             url('library/fonts/font-name.svg#font-name') format('svg');
       font-weight: normal;
       font-style: normal;
   }
+*/
+
+
+
+
+
+
+//  @font-face {
+  //    font-family: 'circular std Bold';
+      //src: url(../fonts/CircularStd-Bold.eot);
+    //  src: url(../fonts/CircularStd-Bold.woff);
+      //src: url(../fonts/CircularStd-Bold.eot?#iefix) format('embedded-opentype'),
+      //       url(../fonts/CircularStd-Bold.woff) format('woff'),
+      //       url(../fonts/CircularStd-Bold.ttf) format('truetype');
+     // font-weight: bold;
+     // font-style: normal;
+  //}
+
+  @font-face {
+     // font-family: 'circular std Book';
+      //src: url(../fonts/CircularStd-Book.eot);
+      //src: url(../fonts/CircularStd-Book.woff);
+      //src: url(../fonts/CircularStd-Book.eot?#iefix) format('embedded-opentype'),
+      //       url(../fonts/CircularStd-Book.woff) format('woff'),
+      //       url(../fonts/CircularStd-Book.ttf) format('truetype');
+     // font-weight: normal;
+     // font-style: normal;
+  }
 
 
   @font-face {
-      font-family: 'mercury bold';
-      src: url(../fonts/Mercury-Bold.woff);
+     // font-family: 'mercury bold';
+     // src: url(../fonts/Mercury-Bold.woff);
       //src: url(../fonts/Mercury-Bold.eot);
       //src: url(../fonts/Mercury-Bold.eot?#iefix) format('embedded-opentype'),
              //url(../fonts/Mercury-Bold.woff) format('woff'),
              //url(../fonts/Mercury-Bold.ttf) format('truetype'),
              //url(../fonts/Mercury-Bold.svg#Mercury-Bold) format('svg');
-      font-weight: bold;
-      font-style: normal;
+    //  font-weight: bold;
+    //  font-style: normal;
   }
 
 /*
@@ -85,7 +112,7 @@ I've edited it a bit, but it's a nice starting point.
 
 
 // font stacks
-$sans-serif:        'circular std',"Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-serif:        'Circular Std Book',"Helvetica Neue", Helvetica, Arial, sans-serif;
 $serif:             "mercury bold", Cambria, Times New Roman, Times, serif;
 
 /*
