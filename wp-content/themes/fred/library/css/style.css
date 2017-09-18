@@ -1730,7 +1730,7 @@ footer {
         margin: 0; }
         footer .nav > li ul.sub-menu li,
         footer .nav > li ul.children li {
-          margin: 0.5em 0; }
+          margin: 0; }
           footer .nav > li ul.sub-menu li a,
           footer .nav > li ul.children li a {
             color: #999999;
