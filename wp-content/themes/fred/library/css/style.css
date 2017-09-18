@@ -1975,7 +1975,6 @@ POSTS & CONTENT STYLES
 .wp-caption {
   max-width: 100%;
   padding: 5px;
-  margin: 2em 0;
   /* images inside wp-caption */ }
   .wp-caption img {
     max-width: 100%;
