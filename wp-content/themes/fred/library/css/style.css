@@ -1846,7 +1846,7 @@ POSTS & CONTENT STYLES
 .archive-title {
   font-size: 2.5em !important;
   text-align: center;
-  margin: 0 1.212em; }
+  margin: 1.212em 0; }
 
 /* want to style individual post classes? Booya! */
 /* post by id (i.e. post-3) */
