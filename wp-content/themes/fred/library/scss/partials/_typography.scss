@@ -44,8 +44,11 @@ FONT FACE (IN YOUR FACE)
 
 @font-face {
   font-family: "Circular Std Book";
-  src: url("../fonts/CircularStd-Book.woff");
+  src: url("../fonts/lineto-circular-pro-book.woff");
 }
+
+
+
 
 body {
   //font-family: "Bitstream Vera Serif Bold", serif;
@@ -65,10 +68,6 @@ body {
 */
 
 
-
-
-
-
 //  @font-face {
   //    font-family: 'circular std Bold';
       //src: url(../fonts/CircularStd-Bold.eot);
@@ -80,7 +79,7 @@ body {
      // font-style: normal;
   //}
 
-  @font-face {
+  //@font-face {
      // font-family: 'circular std Book';
       //src: url(../fonts/CircularStd-Book.eot);
       //src: url(../fonts/CircularStd-Book.woff);
@@ -89,10 +88,10 @@ body {
       //       url(../fonts/CircularStd-Book.ttf) format('truetype');
      // font-weight: normal;
      // font-style: normal;
-  }
+  //}
 
 
-  @font-face {
+  //@font-face {
      // font-family: 'mercury bold';
      // src: url(../fonts/Mercury-Bold.woff);
       //src: url(../fonts/Mercury-Bold.eot);
@@ -102,7 +101,7 @@ body {
              //url(../fonts/Mercury-Bold.svg#Mercury-Bold) format('svg');
     //  font-weight: bold;
     //  font-style: normal;
-  }
+  //}
 
 /*
 The following is based of Typebase:
@@ -112,7 +111,8 @@ I've edited it a bit, but it's a nice starting point.
 
 
 // font stacks
-$sans-serif:        'Circular Std Book',"Helvetica Neue", Helvetica, Arial, sans-serif;
+// $sans-serif:        'Circular Std Book',"Helvetica Neue", Helvetica, Arial, sans-serif;
+$sans-serif:        'Circular Std Book';
 $serif:             "mercury bold", Cambria, Times New Roman, Times, serif;
 
 /*
