@@ -1420,12 +1420,6 @@ body.single .post header h2,
 .article-top a h2,
 .article-list header h2 {
   margin-top: 1em; }
-  body.single .post header h2 a:hover, body.single .post header h2 a:focus,
-  .article-top a h2 a:hover,
-  .article-top a h2 a:focus,
-  .article-list header h2 a:hover,
-  .article-list header h2 a:focus {
-    text-decoration: underline; }
 
 .article-top {
   margin-bottom: 3.750em; }
@@ -1434,8 +1428,6 @@ body.single .post header h2,
     font-size: 2em; }
     .article-top h2 a {
       margin-bottom: 0; }
-      .article-top h2 a:hover, .article-top h2 a:focus {
-        text-decoration: underline; }
   .article-top .entry-content {
     margin: 2em 0em; }
     .article-top .entry-content p {
@@ -1508,16 +1500,14 @@ body.single .post header h2,
 /* user nicename (i.e. body.author-samueladams) */
 /* paged author archives (i.e. body.author-paged-4) for page 4 */
 #content .category {
-  margin: 0em 0;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: "Mercury-Bold", Cambria, Times New Roman, Times, serif;
+  text-transform: capitalize;
   line-height: 1.188em; }
   #content .category a {
-    font-family: "Mercury-Bold", Cambria, Times New Roman, Times, serif;
-    font-weight: bold;
-    font-size: 1em;
-    line-height: 1.188em;
-    text-transform: capitalize; }
-    #content .category a:hover, #content .category a:focus {
-      text-decoration: underline !important; }
+    margin: 0em 0;
+    font-size: 1em; }
 
 /* category page */
 .category-compta .category,

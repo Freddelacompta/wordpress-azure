@@ -199,12 +199,6 @@ body.single .post header,
 		h2{
 			margin-top: 1em;
 			@extend .transition;
-			a{
-				&:hover,
-				&:focus{
-					text-decoration: underline;
-				}
-			}
 		}
 }
 
@@ -216,11 +210,6 @@ body.single .post header,
 
 		a{
 			margin-bottom: 0;
-
-			&:hover,
-			&:focus{
-				text-decoration: underline;
-			}
 		}
 	}
 
@@ -367,20 +356,15 @@ body.single .post header,
 	.author-paged-1 {}              /* paged author archives (i.e. body.author-paged-4) for page 4 */
 #content .category {
 
-	margin: 0em 0;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-family: $serif;
+	text-transform: capitalize;
 	line-height: 1.188em;
+
 	a{
-
-		font-family: $serif;
-		font-weight: bold;
-		font-size: 1em;
-		line-height: 1.188em;
-		text-transform: capitalize;		
-
-		&:hover,
-		&:focus{
-			text-decoration: underline !important;
-		}	
+		margin: 0em 0;
+		font-size: 1em;	
 	}
 
 }                      /* category page */
