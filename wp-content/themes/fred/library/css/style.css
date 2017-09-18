@@ -1428,6 +1428,12 @@ body.single .post header h2,
     font-size: 2em; }
     .article-top h2 a {
       margin-bottom: 0; }
+  .article-top .t-400 {
+    display: block;
+    visibility: visible; }
+  .article-top .t-full {
+    display: none;
+    visibility: hidden; }
   .article-top .entry-content {
     margin: 2em 0em; }
     .article-top .entry-content p {
@@ -1452,7 +1458,6 @@ body.single .post header h2,
   text-align: center;
   display: block; }
 .blog article a.image {
-  display: block;
   color: white; }
   .blog article a.image img:hover, .blog article a.image img:active {
     box-shadow: 0 10px 32px 0; }
@@ -1544,7 +1549,7 @@ LAYOUT & GRID STYLES
 *********************/
 .wrap,
 .wrap700 {
-  width: 96%;
+  width: 88.35%;
   margin: 0 auto;
   transition: all 0.2s; }
 
@@ -2335,6 +2340,12 @@ you can add resource intensive styles.
   .logo a {
     text-align: center; }
 
+  .article-top .t-400 {
+    display: none;
+    visibility: hidden; }
+  .article-top .t-full {
+    display: block;
+    visibility: visible; }
   .article-top .entry-content {
     padding-left: 2.5em; }
 

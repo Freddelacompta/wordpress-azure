@@ -214,7 +214,15 @@ body.single .post header,
 	}
 
 
- 
+	.t-400{
+		display: block;
+		visibility: visible;
+	}
+
+	.t-full{
+		display: none;
+		visibility: hidden;
+	}
 			
 
 	.entry-content{
@@ -266,7 +274,6 @@ body.single .post header,
 
 	article{
 		a.image{
-			display: block;
 			color: white;
 
 
@@ -416,7 +423,7 @@ LAYOUT & GRID STYLES
 
 .wrap,
 .wrap700 {
-	width: 96%;
+	width: 88.35%;
 	margin: 0 auto;
 	transition : all 0.2s;
 }
