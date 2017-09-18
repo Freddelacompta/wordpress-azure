@@ -1193,8 +1193,7 @@ p.sendgrid_widget_success {
 
 p.sendgrid_widget_error {
   margin: 0 5em !important;
-  background-image: none !important;
-  border: 1px solid #FF0033; }
+  background-image: none !important; }
 
 .success-answer, input[type="text"].success, input[type="text"].is-valid,
 input[type="password"].success,
