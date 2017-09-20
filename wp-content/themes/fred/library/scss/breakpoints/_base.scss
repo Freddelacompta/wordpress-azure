@@ -15,6 +15,15 @@ and will be used across all viewports.
 GENERAL STYLES
 *********************/
 
+body{
+	a[title="Sumo"]{
+		opacity: 0;
+		display: none!important;
+		visibility: hidden!important;
+	}
+}
+
+
 body {
 	font-family: $sans-serif;
 	font-size: 100%;
