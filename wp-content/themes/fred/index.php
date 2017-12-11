@@ -1,5 +1,4 @@
 <?php get_header(); ?>
-1
 <div id="content">
 
 	<div id="inner-content" class="cf">
