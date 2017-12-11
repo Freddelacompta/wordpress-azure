@@ -84,5 +84,6 @@
 	</div>
 
 </div>
+1
 <?php if(function_exists('add_social_button_in_content')) { echo add_social_button_in_content(); } ?>
 <?php get_footer(); ?>
