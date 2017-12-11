@@ -6,7 +6,7 @@
 		<main id="main" class="wrap cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 			<div class="cf">
 				<?php
-				    $postsPerPage = 20;
+				    $postsPerPage = 20; 
 				    $args = array(
 				            'post_type' => 'post',
 				            'posts_per_page' => $postsPerPage
