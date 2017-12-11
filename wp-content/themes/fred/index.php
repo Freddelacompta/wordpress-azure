@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+<?php if(function_exists('add_social_button_in_content')) { echo add_social_button_in_content(); } ?>
 <div id="content">
 
 	<div id="inner-content" class="cf">
@@ -83,5 +84,4 @@
 	</div>
 
 </div>
-<?php if(function_exists('add_social_button_in_content')) { echo add_social_button_in_content(); } ?>
 <?php get_footer(); ?>
