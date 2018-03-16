@@ -1690,12 +1690,13 @@ body.single .post header h2,
     font-size: 1em; }
 
 /* category page */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003388}}
+section.category-compta footer.article-footer .archive-title,
 .category-compta .archive-title {
   color: #FF6B0A; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003393}}
-.category-compta footer.article-footer .category,
-.category-compta footer.article-footer .category a,
+section.category-compta footer.article-footer .article-header .category,
+section.category-compta footer.article-footer .article-header .category a,
 .category-compta .article-header .category,
 .category-compta .article-header .category a {
   color: #FF6B0A; }
