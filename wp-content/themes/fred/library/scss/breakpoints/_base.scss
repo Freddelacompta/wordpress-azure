@@ -385,31 +385,57 @@ body.single .post header,
 }                      /* category page */
 
 .category-compta{
+	.archive-title{
+		color : $orange;
+	}
+
+	footer.article-footer,
+	.article-header{
 		.category,
 		.category a{
 			color : $orange;
-
 		}
+	}
 }
 .category-design{
+	.archive-title{
+		color : $pink;
+	}
+
+	footer.article-footer,
+	.article-header{
 		.category,
 		.category a{
 			color : $pink;
 		}
+	}
 }
 .category-entrepreneur{
+	.archive-title{
+		color : $purple;
+	}
+
+	footer.article-footer,
+	.article-header{
 		.category,
 		.category a{
 			color : $purple;
 		}
+	}
 }
 .category-inside-fred{
+	.archive-title{
+		color : $blue;
+	}
+
+	footer.article-footer,
+	.article-header{
 		.category,
 		.category a{
 			color : $blue;
 		}
+	}
 }
-
 
 	.category-1 {}                  /* individual category page (i.e. body.category-6) */
 	.category-paged-1 {}            /* replace the number to the corresponding page number */
