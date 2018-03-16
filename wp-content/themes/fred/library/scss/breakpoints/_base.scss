@@ -383,7 +383,15 @@ body.single .post header,
 
 }                      /* category page */
 
-section.category-compta footer.article-footer,
+section.category-compta{
+	footer.article-footer{
+		p{
+			a{
+				color : $orange;
+			}
+		}
+	}
+}
 .category-compta{
 	.archive-title{
 		color : $orange;
