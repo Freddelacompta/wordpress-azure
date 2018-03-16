@@ -404,16 +404,36 @@ section.category-compta{
 		}
 	}
 }
+
+
+section.category-design{
+	footer.article-footer{
+		p{
+			a{
+				color : $pink;
+			}
+		}
+	}
+}
 .category-design{
 	.archive-title{
 		color : $pink;
 	}
 
-	footer.article-footer,
 	.article-header{
 		.category,
 		.category a{
 			color : $pink;
+		}
+	}
+}
+
+section.category-entrepreneur{
+	footer.article-footer{
+		p{
+			a{
+				color : $purple;
+			}
 		}
 	}
 }
@@ -422,11 +442,20 @@ section.category-compta{
 		color : $purple;
 	}
 
-	footer.article-footer,
 	.article-header{
 		.category,
 		.category a{
 			color : $purple;
+		}
+	}
+}
+
+section.category-entrepreneur{
+	footer.article-footer{
+		p{
+			a{
+				color : $blue;
+			}
 		}
 	}
 }
@@ -435,7 +464,6 @@ section.category-compta{
 		color : $blue;
 	}
 
-	footer.article-footer,
 	.article-header{
 		.category,
 		.category a{
