@@ -492,9 +492,14 @@ section.category-inside-fred,
 LAYOUT & GRID STYLES
 *********************/
 
-.wrap,
-.wrap700 {
+.wrap{
 	width: 88.35%;
+	margin: 0 auto;
+	transition : all 0.2s;
+}
+
+.wrap700{
+	max-width: 700px;
 	margin: 0 auto;
 	transition : all 0.2s;
 }

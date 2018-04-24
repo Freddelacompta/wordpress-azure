@@ -1760,21 +1760,26 @@ section.category-inside-fred footer.article-footer p a,
 LAYOUT & GRID STYLES
 *********************/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003495}}
-.wrap,
-.wrap700 {
+.wrap {
   width: 88.35%;
+  margin: 0 auto;
+  transition: all 0.2s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003501}}
+.wrap700 {
+  max-width: 700px;
   margin: 0 auto;
   transition: all 0.2s; }
 
 /*********************
 LINK STYLES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003506}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003511}}
 a, a:visited {
   /* on hover */
   /* on click */
   /* mobile tap color */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003525}}
   a:link, a:visited:link {
     /*
     this highlights links on iPhones/iPads.
@@ -1786,7 +1791,7 @@ a, a:visited {
 /******************************************************************
 H1, H2, H3, H4, H5 STYLES
 ******************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003534}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003539}}
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   text-rendering: optimizelegibility;
   font-family: "circular", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1796,36 +1801,36 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   http://css-tricks.com/watch-your-font-weight/
   */
   /* removing text decoration from all headline links */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003545}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003550}}
   h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
     text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003550}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003555}}
 h1, .h1 {
   font-size: 2.125em;
   line-height: 1.333em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003555}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003560}}
 h2, .h2 {
   font-size: 1.375em;
   line-height: 1.4em;
   margin-bottom: 0.375em;
   font-weight: bold;
   color: #222222; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003562}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003567}}
   h2 a, .h2 a {
     color: #222222; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003567}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003572}}
 h3, .h3 {
   font-size: 1.125em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003571}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003576}}
 h4, .h4 {
   font-size: 1.1em;
   font-weight: 700; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003576}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003581}}
 h5, .h5 {
   font-size: 0.846em;
   line-height: 2.09em;
@@ -1835,31 +1840,31 @@ h5, .h5 {
 /*********************
 HEADER STYLES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003587}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003592}}
 .header {
   color: #222222; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003594}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003599}}
 footer .logo {
   display: block;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003601}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003606}}
 header .logo {
   text-align: left;
   margin: 0;
   padding: 0 !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003605}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003610}}
   header .logo a {
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003608}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003613}}
     header .logo a img {
       padding: 0.688em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003615}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003620}}
 .logo {
   text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003618}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003623}}
   .logo a img {
     max-width: 102px; }
 
@@ -1873,17 +1878,17 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003635}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003640}}
 footer {
   /* end .nav */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003636}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003641}}
   footer .nav {
     border-bottom: 0;
     margin: 0;
     /* end .menu li */
     /* highlight current page */
     /* end current highlighters */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003640}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003645}}
     footer .nav > li {
       margin-top: 2.5em;
       /*
@@ -1893,7 +1898,7 @@ footer {
       depend on the project. Here's some great info on it:
       http://www.alistapart.com/articles/organizing-mobile/
       */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003646}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003651}}
       footer .nav > li > a {
         display: block;
         color: #222222;
@@ -1907,20 +1912,20 @@ footer {
         the style.scss file where it's relevant. We want to
         keep this file as small as possible!
         */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003661}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003666}}
         footer .nav > li > a:hover, footer .nav > li > a:focus {
           text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003669}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003674}}
       footer .nav > li:first-child ul li.phone a {
         cursor: selector; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003671}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003676}}
         footer .nav > li:first-child ul li.phone a:hover {
           text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003682}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003687}}
       footer .nav > li:last-child ul.sub-menu li {
         display: inline-block;
         vertical-align: middle; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003686}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003691}}
         footer .nav > li:last-child ul.sub-menu li a {
           display: block;
           color: transparent;
@@ -1928,32 +1933,32 @@ footer {
           width: 37px;
           height: 37px;
           transition: all 0.1s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003694}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003699}}
           footer .nav > li:last-child ul.sub-menu li a:hover, footer .nav > li:last-child ul.sub-menu li a:focus {
             opacity: 0.8;
             color: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003701}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003706}}
         footer .nav > li:last-child ul.sub-menu li.facebook a {
           background-image: url(../images/facebook-square-footer.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003706}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003711}}
         footer .nav > li:last-child ul.sub-menu li.twitter a {
           background-image: url(../images/twitter-square-footer.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003711}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003716}}
         footer .nav > li:last-child ul.sub-menu li.instagram a {
           background-image: url(../images/instagram-square-footer.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003716}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003721}}
         footer .nav > li:last-child ul.sub-menu li.linkedin a {
           background-image: url(../images/linkedin-square-footer.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003721}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003726}}
         footer .nav > li:last-child ul.sub-menu li.medium a {
           background-image: url(../images/medium-square-footer.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003726}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003731}}
         footer .nav > li:last-child ul.sub-menu li.pinterest a {
           background-image: url(../images/pinterest-square-footer.svg); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003732}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003737}}
         footer .nav > li:last-child ul.sub-menu li.follow-us, footer .nav > li:last-child ul.sub-menu li.copyright {
           display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003736}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003741}}
           footer .nav > li:last-child ul.sub-menu li.follow-us a, footer .nav > li:last-child ul.sub-menu li.copyright a {
             color: #999999;
             height: inherit;
@@ -1961,48 +1966,48 @@ footer {
             background-image: inherit;
             font-size: 0.813em;
             text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003744}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003749}}
             footer .nav > li:last-child ul.sub-menu li.follow-us a:hover, footer .nav > li:last-child ul.sub-menu li.follow-us a:focus, footer .nav > li:last-child ul.sub-menu li.copyright a:hover, footer .nav > li:last-child ul.sub-menu li.copyright a:focus {
               opacity: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003751}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003756}}
         footer .nav > li:last-child ul.sub-menu li.copyright a {
           cursor: selector; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003753}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003758}}
           footer .nav > li:last-child ul.sub-menu li.copyright a:hover {
             text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003769}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003774}}
       footer .nav > li ul.sub-menu,
       footer .nav > li ul.children {
         margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003773}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003778}}
         footer .nav > li ul.sub-menu li,
         footer .nav > li ul.children li {
           margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003776}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003781}}
           footer .nav > li ul.sub-menu li a,
           footer .nav > li ul.children li a {
             color: #999999;
             font-size: 0.875em;
             font-weight: 300; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003781}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003786}}
             footer .nav > li ul.sub-menu li a:hover, footer .nav > li ul.sub-menu li a:focus,
             footer .nav > li ul.children li a:hover,
             footer .nav > li ul.children li a:focus {
               color: #FF694C; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003812}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003817}}
 header {
   /* end .nav */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003815}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003820}}
   header .entry-content .p {
     font-size: 0.875em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003821}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003826}}
   header #menu-header-right,
   header #menu-blog-header-right,
   header #menu-header-left,
   header #menu-blog-header-left {
     text-align: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003827}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003832}}
     header #menu-header-right .all-posts,
     header #menu-header-right .who-is,
     header #menu-blog-header-right .all-posts,
@@ -2012,7 +2017,7 @@ header {
     header #menu-blog-header-left .all-posts,
     header #menu-blog-header-left .who-is {
       padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003830}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003835}}
       header #menu-header-right .all-posts a,
       header #menu-header-right .who-is a,
       header #menu-blog-header-right .all-posts a,
@@ -2025,14 +2030,14 @@ header {
         background-repeat: no-repeat;
         background-size: 24px;
         font-size: 0.875em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003839}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003844}}
     header #menu-header-right .who-is a,
     header #menu-blog-header-right .who-is a,
     header #menu-header-left .who-is a,
     header #menu-blog-header-left .who-is a {
       padding: 1.6em 0em 1.6em 1em;
       color: #222222; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003850}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003855}}
     header #menu-header-right .all-posts a,
     header #menu-blog-header-right .all-posts a,
     header #menu-header-left .all-posts a,
@@ -2040,19 +2045,19 @@ header {
       background-image: url(../images/arrow-left-back.svg);
       padding: 1.6em 1em 1.6em 2.857em;
       background-position: left 1.75em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003859}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003864}}
   header #menu-header-right,
   header #menu-blog-header-right {
     text-align: right;
     padding-right: 0 !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003865}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003870}}
   header .nav {
     border-bottom: 0;
     margin: 0;
     /* end .menu li */
     /* highlight current page */
     /* end current highlighters */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003869}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003874}}
     header .nav > li {
       padding: 1.85em 1em;
       display: inline-block;
@@ -2064,16 +2069,16 @@ header {
       depend on the project. Here's some great info on it:
       http://www.alistapart.com/articles/organizing-mobile/
       */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003874}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003879}}
       header .nav > li:last-child {
         padding-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003878}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003883}}
       header .nav > li:first-child {
         padding-left: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003890}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003895}}
       header .nav > li.plateforme a {
         color: #FF6B0A; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003895}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003900}}
       header .nav > li > a {
         display: block;
         text-decoration: none;
@@ -2085,33 +2090,33 @@ header {
         the style.scss file where it's relevant. We want to
         keep this file as small as possible!
         */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003908}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003913}}
         header .nav > li > a:hover, header .nav > li > a:focus {
           text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003917}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003922}}
       header .nav > li:first-child ul li:last-child a,
       header .nav > li:first-child ul li:nth-child(5) a {
         cursor: selector; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003919}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\00003924}}
         header .nav > li:first-child ul li:last-child a:hover,
         header .nav > li:first-child ul li:nth-child(5) a:hover {
           text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031007}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031012}}
       header .nav > li ul.sub-menu,
       header .nav > li ul.children {
         margin: 0;
         display: none;
         visibility: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031013}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031018}}
         header .nav > li ul.sub-menu li,
         header .nav > li ul.children li {
           display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031017}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031022}}
           header .nav > li ul.sub-menu li a,
           header .nav > li ul.children li a {
             color: #999999;
             font-size: 0.875em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031020}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031025}}
             header .nav > li ul.sub-menu li a:hover, header .nav > li ul.sub-menu li a:focus,
             header .nav > li ul.children li a:hover,
             header .nav > li ul.children li a:focus {
@@ -2120,12 +2125,12 @@ header {
 /*********************
 POSTS & CONTENT STYLES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031065}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031070}}
 .hentry footer p {
   margin: 0; }
 
 /* end .hentry */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031084}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031089}}
 .archive-title {
   font-size: 2.5em !important;
   text-align: center;
@@ -2141,38 +2146,38 @@ POSTS & CONTENT STYLES
 /* style by category (i.e. category-videos) */
 /* style by tag (i.e. tag-news) */
 /* post meta */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031101}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031106}}
 .byline {
   margin: 1.5em 0;
   display: block;
   color: #999999; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031111}}
   .byline .avatar-author {
     margin-right: 0.25em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031108}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031113}}
     .byline .avatar-author img {
       border-radius: 50% !important;
       overflow: hidden;
       width: 32px;
       height: 32px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031122}}
   .byline .avatar-author,
   .byline .details-author,
   .byline img.emoji {
     display: inline-block;
     vertical-align: middle; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031123}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031128}}
     .byline .avatar-author img.emoji,
     .byline .details-author img.emoji,
     .byline img.emoji img.emoji {
       width: 20px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031140}}
   .byline .author, .byline .the, .byline time {
     color: #222222;
     font-weight: bold; }
 
 /* entry content */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031147}}
 .entry-content {
   /*
   image alignment on a screen this size may be
@@ -2180,53 +2185,53 @@ POSTS & CONTENT STYLES
   and floating images at the next breakpoint,
   but it's up to you. Feel free to change it up.
   */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031148}}
   .entry-content :last-child {
     margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031147}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031152}}
   .entry-content p {
     margin: 1em 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031157}}
   .entry-content a {
     color: #FF694C;
     text-decoration: underline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031161}}
     .entry-content a:hover, .entry-content a:active {
       text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031189}}
   .entry-content table {
     width: 100%;
     border: 1px solid #D8D8D8;
     margin-bottom: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031189}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031194}}
     .entry-content table caption {
       margin: 0 0 7px;
       font-size: 0.75em;
       color: #9fa6b4;
       text-transform: uppercase;
       letter-spacing: 1px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031203}}
   .entry-content tr {
     border-bottom: 1px solid #D8D8D8; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031206}}
     .entry-content tr:nth-child(even) {
       background-color: #f8f9fa; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031206}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031211}}
   .entry-content td {
     padding: 7px;
     border-right: 1px solid #D8D8D8; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031215}}
     .entry-content td:last-child {
       border-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031215}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031220}}
   .entry-content th {
     background-color: #f8f9fa;
     border-bottom: 1px solid #D8D8D8;
     border-right: 1px solid #D8D8D8; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031225}}
     .entry-content th:last-child {
       border-right: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031230}}
   .entry-content blockquote {
     margin: 3em auto;
     padding: 3em 2em 0em 2em;
@@ -2239,21 +2244,21 @@ POSTS & CONTENT STYLES
     background-position: top center;
     background-repeat: no-repeat;
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031243}}
     .entry-content blockquote p {
       margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031256}}
   .entry-content dd {
     margin-left: 0;
     font-size: 0.9em;
     color: #787878;
     margin-bottom: 1.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031258}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031263}}
   .entry-content img {
     margin: 1.5em 0;
     max-width: 100%;
     height: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031274}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031279}}
   .entry-content .size-auto,
   .entry-content .size-full,
   .entry-content .size-large,
@@ -2261,7 +2266,7 @@ POSTS & CONTENT STYLES
   .entry-content .size-thumbnail {
     max-width: 100%;
     height: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031283}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031288}}
   .entry-content pre {
     background: #222222;
     color: #f8f9fa;
@@ -2271,17 +2276,17 @@ POSTS & CONTENT STYLES
     border-radius: 3px; }
 
 /* end .entry-content */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031299}}
 .wp-caption {
   max-width: 100%;
   padding: 5px;
   /* images inside wp-caption */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031300}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031305}}
   .wp-caption img {
     max-width: 100%;
     margin-bottom: 0;
     width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031311}}
   .wp-caption p.wp-caption-text {
     font-size: 0.85em;
     margin: 4px 0 7px;
@@ -2293,22 +2298,22 @@ POSTS & CONTENT STYLES
 /* image gallery styles */
 /* end .gallery */
 /* gallery caption styles */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031347}}
 .tags {
   margin: 0; }
 
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031355}}
 .pagination,
 .wp-prev-next {
   margin: 1.5em 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031359}}
 .pagination {
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031362}}
   .pagination ul {
     display: inline-block;
     background-color: #fff;
@@ -2316,7 +2321,7 @@ PAGE NAVI STYLES
     padding: 0;
     clear: both;
     border-radius: 3px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031371}}
   .pagination li {
     padding: 0;
     margin: 0;
@@ -2324,7 +2329,7 @@ PAGE NAVI STYLES
     display: inline;
     overflow: hidden;
     border-right: 1px solid #D8D8D8; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031380}}
   .pagination a, .pagination span {
     margin: 0;
     text-decoration: none;
@@ -2336,25 +2341,25 @@ PAGE NAVI STYLES
     min-width: 1em;
     display: block;
     color: #0482FF; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031392}}
     .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
       background-color: #0482FF;
       color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031398}}
   .pagination .current {
     cursor: default;
     color: #222222; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031402}}
     .pagination .current:hover, .pagination .current:focus {
       background-color: #fff;
       color: #222222; }
 
 /* end .bones_page_navi */
 /* fallback previous & next links */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031415}}
 .wp-prev-next .prev-link {
   float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031414}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031419}}
 .wp-prev-next .next-link {
   float: right; }
 
@@ -2363,19 +2368,19 @@ PAGE NAVI STYLES
 COMMENT STYLES
 ******************************************************************/
 /* h3 comment title */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031425}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031430}}
 #comments-title {
   padding: 0.75em;
   margin: 0;
   border-top: 1px solid #f8f9fa;
   /* number of comments span */ }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031445}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031450}}
 .commentlist {
   margin: 0;
   list-style-type: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031455}}
 .comment {
   position: relative;
   clear: both;
@@ -2386,64 +2391,64 @@ COMMENT STYLES
   /* end .commentlist .vcard */
   /* end children */
   /* general comment classes */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031457}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031462}}
   .comment .comment-author {
     padding: 7px;
     border: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031463}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031468}}
   .comment .vcard {
     margin-left: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031466}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031471}}
     .comment .vcard cite.fn {
       font-weight: 700;
       font-style: normal; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031474}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031479}}
     .comment .vcard time {
       display: block;
       font-size: 0.9em;
       font-style: italic; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031479}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031484}}
       .comment .vcard time a {
         color: #9fa6b4;
         text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031488}}
         .comment .vcard time a:hover {
           text-decoration: underline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031493}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031498}}
     .comment .vcard .avatar {
       position: absolute;
       left: 16px;
       border-radius: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031501}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031506}}
   .comment:last-child {
     margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031505}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031510}}
   .comment .children {
     margin: 0;
     /* variations */
     /* change number for different depth */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031523}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031528}}
   .comment[class*=depth-] {
     margin-top: 1.1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031527}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031532}}
   .comment.depth-1 {
     margin-left: 0;
     margin-top: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031532}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031537}}
   .comment:not(.depth-1) {
     margin-top: 0;
     margin-left: 7px;
     padding: 7px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031545}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031550}}
   .comment.odd {
     background-color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031548}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031553}}
   .comment.even {
     background: #f8f9fa; }
 
 /* comment meta */
 /* comment content */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031579}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031584}}
 .comment_content p {
   margin: 0.7335em 0 1.5em;
   font-size: 1em;
@@ -2451,14 +2456,14 @@ COMMENT STYLES
 
 /* end .commentlist .comment_content */
 /* comment reply link */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031588}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031593}}
 .comment-reply-link {
   font-size: 0.9em;
   float: right; }
 
 /* end .commentlist .comment-reply-link */
 /* edit comment link */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031600}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031605}}
 .comment-edit-link {
   font-style: italic;
   margin: 0 7px;
@@ -2468,65 +2473,65 @@ COMMENT STYLES
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031613}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031618}}
 .comment-respond {
   padding: 1.5em;
   border-top: 1px solid #f8f9fa; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031619}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031624}}
 #reply-title {
   margin: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031623}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031628}}
 .logged-in-as {
   color: #9fa6b4;
   font-style: italic;
   margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031628}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031633}}
   .logged-in-as a {
     color: #222222; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031633}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031638}}
 .comment-form-comment {
   margin: 1.5em 0 0.75em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031637}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031642}}
 .form-allowed-tags {
   padding: 1.5em;
   background-color: #f8f9fa;
   font-size: 0.9em; }
 
 /* comment submit button */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031644}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031649}}
 #submit {
   float: right;
   font-size: 1em; }
 
 /* comment form title */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031651}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031656}}
 #comment-form-title {
   margin: 0 0 1.1em; }
 
 /* cancel comment reply link */
 /* logged in comments */
 /* allowed tags */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031664}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031669}}
 #allowed_tags {
   margin: 1.5em 10px 0.7335em 0; }
 
 /* no comments */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031669}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031674}}
 .nocomments {
   margin: 0 20px 1.1em; }
 
 /*********************
 SIDEBARS & ASIDES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031685}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031690}}
 .widget ul li {
   /* deep nesting */ }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031702}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031707}}
 .no-widgets {
   background-color: #fff;
   padding: 1.5em;
@@ -2538,7 +2543,7 @@ SIDEBARS & ASIDES
 /*********************
 FOOTER STYLES
 *********************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031715}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031720}}
 .footer {
   clear: both;
   background-color: #F6F6F6;
@@ -2841,15 +2846,11 @@ you can add resource intensive styles.
   .wrap {
     width: 1040px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_1030up\.scss}line{font-family:\0000316}}
-  .wrap700 {
-    width: 700px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_1030up\.scss}line{font-family:\0000323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_1030up\.scss}line{font-family:\0000319}}
   .article-list header h2 {
     height: 90px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_1030up\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_1030up\.scss}line{font-family:\0000329}}
   .archive article footer .exerpt {
     height: 160px; } }
 /*********************
