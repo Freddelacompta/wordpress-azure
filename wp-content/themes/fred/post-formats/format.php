@@ -58,63 +58,23 @@
                   ?>
                 </section> <?php // end article section ?>
 
-                <footer class="article-footer wrap-cf">
-                  <?php
-                    //for use in the loop, list 5 post titles related to first tag on current post
-                    $tags = wp_get_post_tags($post->ID);
-                    if ($tags) {
-                      echo '<div class="cf related-posts">Vous aimerez aussi</div>'; ?>
-
-                      <div class="wrap cf">
-                      <?php
-                        $first_tag = $tags[0]->term_id;
-                        $args=array(
-                        'tag__in' => array($first_tag),
-                        'post__not_in' => array($post->ID),
-                        'posts_per_page'=>3,
-                        'caller_get_posts'=>1
-                        );
-                        $my_query = new WP_Query($args);
-                        if( $my_query->have_posts() ) {
-                        while ($my_query->have_posts()) : $my_query->the_post();
-                      ?>
-                      <section id="post-<?php the_ID(); ?>" <?php post_class( 'article-list cf m-all t-1of3 d-1of3' ); ?> role="article">
-                        <header class="article-header">
-                          <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('bones-thumb-400'); ?></a>
-                            <h2 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-                        </header>
-                        <footer class="article-footer cf">
-                          <?php printf( '<p class="category">' . ' %1$s</p>' , get_the_category_list(', ','') ); ?>
-                        </footer>
-                      </section>
-                        <?php endwhile;
-                        }
-                        wp_reset_query();
-                    }
-                    ?>
-
-
-
-                </div>
-                </footer> <?php // end article footer ?>
-
                 <?php $related_posts = get_field('related_posts'); ?>
                 <?php if ( ! have_rows( 'related_posts' ) ) { return false; } ?>
 
                 <?php if ( have_rows( 'related_posts' ) ) : ?>
                   <footer class="article-footer wrap-cf">
-                    <!-- <div class="cf related-posts">Vous aimerez aussi</div> -->
+                    <div class="cf related-posts">Vous aimerez aussi : </div>
                       <div class="wrap cf">
                           <?php foreach( $related_posts as $post): // variable must be called $post (IMPORTANT) ?>
                               <?php setup_postdata($post); ?>
                             <section id="post-<?php the_ID(); ?>" <?php post_class( 'article-list cf m-all t-1of3 d-1of3' ); ?> role="article">
-                              <!-- <header class="article-header">
+                              <header class="article-header">
                                 <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('bones-thumb-400'); ?></a>
                                 <h2 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
-                              </header> -->
-                              <!-- <footer class="article-footer cf">
+                              </header>
+                             <footer class="article-footer cf">
                                 <?php printf( '<p class="category">' . ' %1$s</p>' , get_the_category_list(', ','') ); ?>
-                              </footer> -->
+                              </footer>
                             </section>
                           <?php endforeach; ?>
                           <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
@@ -122,6 +82,7 @@
                     </div>
                   </footer>
                 <?php endif; ?>
+                <?php // end article footer ?>
 
                 <?php //comments_template(); ?>
 
