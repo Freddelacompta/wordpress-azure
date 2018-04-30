@@ -1016,7 +1016,7 @@ you can just remove this stylesheet.
   background: #51CF66; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/modules\/_alerts\.scss}line{font-family:\0000345}}
-.sg-confirmation {
+#sg-confirmation {
   display: none;
   position: absolute;
   top: 0;
@@ -1030,7 +1030,7 @@ you can just remove this stylesheet.
   transition: height 0.3s ease;
   height: inherit; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/modules\/_alerts\.scss}line{font-family:\0000359}}
-  .sg-confirmation.inactive {
+  #sg-confirmation.inactive {
     display: none;
     height: 0; }
 
