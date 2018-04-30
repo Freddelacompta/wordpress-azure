@@ -63,7 +63,7 @@
 
                 <?php if ( have_rows( 'related_posts' ) ) : ?>
                   <footer class="article-footer wrap-cf">
-                    <div class="cf related-posts">Vous aimerez aussi : </div>
+                    <div class="cf related-posts">Vous aimerez aussi</div>
                       <div class="wrap cf">
                           <?php foreach( $related_posts as $post): // variable must be called $post (IMPORTANT) ?>
                               <?php setup_postdata($post); ?>
