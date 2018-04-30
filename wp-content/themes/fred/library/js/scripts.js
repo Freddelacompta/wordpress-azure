@@ -123,6 +123,7 @@ function getQueryVariable(variable){
 // Get variable from URL
 sgToken = getQueryVariable('sg_token');
 
+
 function sgConfirmationMessage(){
     console.log("sg ok");
     block_to_insert = document.createElement( 'div' );
