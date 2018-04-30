@@ -41,3 +41,23 @@ you can just remove this stylesheet.
   border-color: darken($alert-green, 5%);
   background: $alert-green;
 }
+
+.sgconfirmation{
+  display :none;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  background-color: $green;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 0.5em;
+  opacity: 1;
+  transition: height 0.3s ease;
+  height : inherit;
+
+  &.inactive{
+      display: none;
+      height : 0;
+  }
+}

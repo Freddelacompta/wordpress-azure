@@ -109,7 +109,44 @@ function loadGravatars() {
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function($) {
-/*
+
+function getQueryVariable(variable){
+  var query = window.location.search.substring(1);
+  var vars = query.split("&");
+  for (var i=0;i<vars.length;i++) {
+          var pair = vars[i].split("=");
+          if(pair[0] == variable){return pair[1];}
+  }
+  return(false);
+}
+
+// Get variable from URL
+sgToken = getQueryVariable('sg_token');
+
+function sgConfirmationMessage(){
+    alert("sg ok");
+    block_to_insert = document.createElement( 'div' );
+    block_to_insert.setAttribute("id", "sg-confirmation");
+    block_to_insert.innerHTML = 'Votre inscription a bien été validée' ;
+    container_block = document.getElementById( 'container' );
+    container_block.appendChild( block_to_insert );
+}
+
+function sgConfirmationMessageHide(){
+    document.getElementById('sg-confirmation').classList.add('hidden');
+}
+
+if (sgToken && sgToken!=""){
+    sgConfirmationMessage();
+    setTimeout(function(){
+        sgConfirmationMessageHide();
+        alert("hidden");
+    }, 5000);
+}
+
+
+
+  /*
 setInterval(function(){
     var $img = $("a.image>img");
     var $title = $("h2>a");

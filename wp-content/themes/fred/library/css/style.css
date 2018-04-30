@@ -1015,6 +1015,25 @@ you can just remove this stylesheet.
   border-color: #3dc954;
   background: #51CF66; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/modules\/_alerts\.scss}line{font-family:\0000345}}
+.sgconfirmation {
+  display: none;
+  position: absolute;
+  top: 0;
+  z-index: 1000;
+  background-color: #7dd667;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 0.5em;
+  opacity: 1;
+  transition: height 0.3s ease;
+  height: inherit; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/modules\/_alerts\.scss}line{font-family:\0000359}}
+  .sgconfirmation.inactive {
+    display: none;
+    height: 0; }
+
 /******************************************************************
 Site Name:
 Author:
