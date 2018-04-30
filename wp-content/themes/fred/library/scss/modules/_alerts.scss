@@ -57,7 +57,7 @@ you can just remove this stylesheet.
   height : inherit;
 
   &.hidden{
-      display: none;
+      //display: none;
       height : 0;
   }
 }
