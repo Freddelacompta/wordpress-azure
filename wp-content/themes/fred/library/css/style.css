@@ -1032,7 +1032,7 @@ you can just remove this stylesheet.
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/modules\/_alerts\.scss}line{font-family:\0000359}}
   #sg-confirmation.hidden {
     visibility: hidden;
-    height: 0; }
+    opacity: 0; }
 
 /******************************************************************
 Site Name:
