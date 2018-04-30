@@ -22,7 +22,7 @@
 				<?php if ($i==0) {?>
 					<article id="post-<?php the_ID(); ?>" <?php post_class( 'article-top cf' ); ?> role="article">
 
-					<a class="image cf t-full" style="color :<?php the_field("shadow_hover"); ?>;" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('large'); ?></a>
+					<a class="image cf t-full" style="color :<?php the_field("shadow_hover"); ?>;" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('full'); ?></a>
 					<a class="image cf t-400" style="color :<?php the_field("shadow_hover"); ?>;" href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail('bones-thumb-400'); ?></a>
 						<header class="article-header d-1of2 t-1of2 m-all cf">
 
