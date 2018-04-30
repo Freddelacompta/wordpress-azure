@@ -1027,10 +1027,11 @@ you can just remove this stylesheet.
   text-align: center;
   padding: 0.5em;
   opacity: 1;
-  transition: height 0.3s ease;
+  transition: all 0.3s ease;
   height: inherit; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/modules\/_alerts\.scss}line{font-family:\0000359}}
   #sg-confirmation.hidden {
+    visibility: hidden;
     height: 0; }
 
 /******************************************************************
