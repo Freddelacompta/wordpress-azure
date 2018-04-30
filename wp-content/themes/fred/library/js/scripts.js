@@ -118,6 +118,7 @@ function getQueryVariable(variable){
           if(pair[0] == variable){return pair[1];}
   }
   return(false);
+  
 }
 
 // Get variable from URL
