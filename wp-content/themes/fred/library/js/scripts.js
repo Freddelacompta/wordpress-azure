@@ -124,7 +124,7 @@ function getQueryVariable(variable){
 sgToken = getQueryVariable('sg_token');
 
 function sgConfirmationMessage(){
-    alert("sg ok");
+    console.log("sg ok");
     block_to_insert = document.createElement( 'div' );
     block_to_insert.setAttribute("id", "sg-confirmation");
     block_to_insert.innerHTML = 'Votre inscription a bien été validée' ;
@@ -140,7 +140,7 @@ if (sgToken && sgToken!=""){
     sgConfirmationMessage();
     setTimeout(function(){
         sgConfirmationMessageHide();
-        alert("hidden");
+        console.log("hidden");
     }, 5000);
 }
 
