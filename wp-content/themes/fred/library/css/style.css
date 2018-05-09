@@ -1502,7 +1502,7 @@ article a.image,
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\0000376}}
 #sendgrid_mc_email_subscribe {
-  margin: 2em 0 2em 0; }
+  margin: 2em auto; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\0000378}}
   #sendgrid_mc_email_subscribe .widget {
     text-align: center; }
