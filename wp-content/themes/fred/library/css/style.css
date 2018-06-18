@@ -2586,24 +2586,26 @@ view.
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031755}}
 article .sumome-share-client-wrapper {
   top: 250px !important;
-  position: sticky !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031759}}
+  position: sticky !important;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031760}}
   article .sumome-share-client-wrapper .sumome-share-client {
     width: 50px !important;
     position: absolute !important;
     left: -68px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031764}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031765}}
     article .sumome-share-client-wrapper .sumome-share-client a.sumome-share-client-share {
+      transition: 0.5s ease all;
       background-color: #868E96 !important;
       width: 40px !important;
       height: 40px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031769}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031771}}
       article .sumome-share-client-wrapper .sumome-share-client a.sumome-share-client-share img {
         width: 100%;
         height: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031773}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/julienmarcialis\/src\/wordpress-azure\/wp-content\/themes\/fred\/library\/scss\/breakpoints\/_base\.scss}line{font-family:\000031775}}
       article .sumome-share-client-wrapper .sumome-share-client a.sumome-share-client-share:hover {
-        opacity: 0.7; }
+        opacity: 0.85; }
 
 /*********************
 LARGER MOBILE DEVICES

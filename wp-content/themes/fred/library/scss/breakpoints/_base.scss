@@ -1755,6 +1755,7 @@ FOOTER STYLES
 article .sumome-share-client-wrapper{
 	top: 250px !important;
 	position: sticky !important;
+	text-align: center;
 	
 	.sumome-share-client {
 		width: 50px !important;;
@@ -1762,6 +1763,7 @@ article .sumome-share-client-wrapper{
 		left: -68px !important;;
 		
 		a.sumome-share-client-share{
+			transition: 0.5s ease all;
 			background-color: #868E96 !important;
 			width: 40px !important;
 			height: 40px !important;
@@ -1771,7 +1773,7 @@ article .sumome-share-client-wrapper{
 				height: 100%;
 			}
 		&:hover{
-			opacity: 0.7;
+			opacity: 0.85;
 		}
 		}
 	}
