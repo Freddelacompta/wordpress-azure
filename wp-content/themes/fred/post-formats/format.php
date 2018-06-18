@@ -14,6 +14,7 @@
                 */
               ?>
               <article id="post-<?php the_ID(); ?>" <?php post_class('cf'); ?> role="article" itemscope itemprop="blogPost" itemtype="http://schema.org/BlogPosting">
+              <a data-sumome-share-id=57c0011d-dad3-46cf-be4e-e08d755362e2></a>
 
                 <header class="article-header entry-header">
 

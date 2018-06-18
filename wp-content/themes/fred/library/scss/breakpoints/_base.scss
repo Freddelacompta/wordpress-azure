@@ -1749,3 +1749,20 @@ FOOTER STYLES
 
 
 	.copyright {}
+
+
+//share buttons
+article .sumome-share-client-wrapper{
+	top: 250px !important;
+	position: sticky !important;
+	
+	.sumome-share-client {
+		width: 50px !important;;
+		position: absolute !important;;
+		left: -68px !important;;
+
+		.sumome-share-client-share{
+			background-color: #F6F6F6 !important;
+		}
+	}
+}
